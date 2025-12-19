@@ -1,14 +1,8 @@
-# Benchmark de Modelos de IA para Imagens Médicas
+# Benchmark de Modelos 
 
 Avaliação comparativa entre o modelo atual (WB Assist/GPT-4.1) e duas alternativas: GPT-4o-mini e Gemini 2.5 Flash Lite.
 
-## O Problema
-
-O modelo atual funciona bem, mas é lento. A pergunta era simples: **podemos trocar por algo mais rápido sem perder qualidade?**
-
-Para responder, precisávamos de uma forma objetiva de medir "qualidade". Comparar textos médicos não é trivial - o modelo pode acertar o diagnóstico usando palavras completamente diferentes do gabarito.
-
-## A Solução
+## Metodologia
 
 Usamos **similaridade semântica** para comparar textos pelo significado, não por palavras exatas. O processo funciona assim:
 
