@@ -1,0 +1,1529 @@
+{
+  "metadata": {
+    "data_analise": "2025-12-17T13:35:29.520494",
+    "total_testes": 166,
+    "metodo": "Sentence Transformers (all-mpnet-base-v2)",
+    "tipo_similaridade": "Cosine Similarity"
+  },
+  "estatisticas": {
+    "gpt4o_mini": {
+      "media_similaridade": 81.49502563476562,
+      "min_similaridade": 48.10008239746094,
+      "max_similaridade": 96.66909790039062,
+      "std_similaridade": 8.55012035369873,
+      "media_tempo": 5.524491605988468,
+      "min_tempo": 3.242663860321045,
+      "max_tempo": 17.434031009674072
+    },
+    "gemini": {
+      "media_similaridade": 83.31816101074219,
+      "min_similaridade": 44.3952522277832,
+      "max_similaridade": 98.23609161376953,
+      "std_similaridade": 8.884292602539062,
+      "media_tempo": 4.340112505188907,
+      "min_tempo": 1.8146710395812988,
+      "max_tempo": 158.39494609832764
+    },
+    "baseline": {
+      "media_tempo": 9.572377858391727,
+      "min_tempo": 2.30147385597229,
+      "max_tempo": 24.89562702178955
+    }
+  },
+  "resultados_detalhados": [
+    {
+      "test_number": 1,
+      "image_path": "Alléxya/Caso 13.jpg",
+      "similarity_gpt4o_mini": 87.80702209472656,
+      "similarity_gemini": 91.42103576660156,
+      "baseline_time": 8.63139271736145,
+      "gpt4o_mini_time": 4.986227989196777,
+      "gemini_time": 2.9182493686676025
+    },
+    {
+      "test_number": 2,
+      "image_path": "Alléxya/Caso 14.jpg",
+      "similarity_gpt4o_mini": 78.275146484375,
+      "similarity_gemini": 88.7217025756836,
+      "baseline_time": 7.152294874191284,
+      "gpt4o_mini_time": 4.035620927810669,
+      "gemini_time": 2.9871842861175537
+    },
+    {
+      "test_number": 3,
+      "image_path": "Alléxya/Caso 15 (2).jpg",
+      "similarity_gpt4o_mini": 77.17201232910156,
+      "similarity_gemini": 75.7835693359375,
+      "baseline_time": 8.050438165664673,
+      "gpt4o_mini_time": 6.013258218765259,
+      "gemini_time": 2.2029571533203125
+    },
+    {
+      "test_number": 4,
+      "image_path": "Alléxya/Caso 15 (3).jpg",
+      "similarity_gpt4o_mini": 77.37168884277344,
+      "similarity_gemini": 80.34880065917969,
+      "baseline_time": 8.164736986160278,
+      "gpt4o_mini_time": 3.5608901977539062,
+      "gemini_time": 35.68103098869324
+    },
+    {
+      "test_number": 5,
+      "image_path": "Alléxya/Caso 15.jpg",
+      "similarity_gpt4o_mini": 82.03778076171875,
+      "similarity_gemini": 93.19178771972656,
+      "baseline_time": 10.601401090621948,
+      "gpt4o_mini_time": 4.768841028213501,
+      "gemini_time": 2.6866869926452637
+    },
+    {
+      "test_number": 6,
+      "image_path": "Alléxya/Teste 1.jpeg",
+      "similarity_gpt4o_mini": 55.897186279296875,
+      "similarity_gemini": 88.26821899414062,
+      "baseline_time": 9.01488995552063,
+      "gpt4o_mini_time": 5.179906129837036,
+      "gemini_time": 3.0908567905426025
+    },
+    {
+      "test_number": 7,
+      "image_path": "Alléxya/Teste 10.jpeg",
+      "similarity_gpt4o_mini": 81.14424896240234,
+      "similarity_gemini": 89.74188232421875,
+      "baseline_time": 10.324910879135132,
+      "gpt4o_mini_time": 5.16404914855957,
+      "gemini_time": 2.408034086227417
+    },
+    {
+      "test_number": 8,
+      "image_path": "Alléxya/Teste 11 (2).jpg",
+      "similarity_gpt4o_mini": 81.4004898071289,
+      "similarity_gemini": 69.39253234863281,
+      "baseline_time": 9.988224983215332,
+      "gpt4o_mini_time": 7.096868991851807,
+      "gemini_time": 35.86753988265991
+    },
+    {
+      "test_number": 9,
+      "image_path": "Alléxya/Teste 11.jpg",
+      "similarity_gpt4o_mini": 72.67089080810547,
+      "similarity_gemini": 87.23954772949219,
+      "baseline_time": 11.856884002685547,
+      "gpt4o_mini_time": 5.63147497177124,
+      "gemini_time": 3.7305400371551514
+    },
+    {
+      "test_number": 10,
+      "image_path": "Alléxya/Teste 12.jpg",
+      "similarity_gpt4o_mini": 86.5685806274414,
+      "similarity_gemini": 87.2273178100586,
+      "baseline_time": 11.090347051620483,
+      "gpt4o_mini_time": 5.695394992828369,
+      "gemini_time": 2.990068197250366
+    },
+    {
+      "test_number": 11,
+      "image_path": "Alléxya/Teste 16.jpg",
+      "similarity_gpt4o_mini": 69.56036376953125,
+      "similarity_gemini": 80.43753051757812,
+      "baseline_time": 9.355640172958374,
+      "gpt4o_mini_time": 4.804220914840698,
+      "gemini_time": 2.845451831817627
+    },
+    {
+      "test_number": 12,
+      "image_path": "Alléxya/Teste 17.jpg",
+      "similarity_gpt4o_mini": 81.5822525024414,
+      "similarity_gemini": 87.44544219970703,
+      "baseline_time": 10.846119165420532,
+      "gpt4o_mini_time": 5.556532144546509,
+      "gemini_time": 2.45281720161438
+    },
+    {
+      "test_number": 13,
+      "image_path": "Alléxya/Teste 18 (2).jpg",
+      "similarity_gpt4o_mini": 77.47527313232422,
+      "similarity_gemini": 82.73613739013672,
+      "baseline_time": 7.422788858413696,
+      "gpt4o_mini_time": 4.012666702270508,
+      "gemini_time": 2.4151809215545654
+    },
+    {
+      "test_number": 14,
+      "image_path": "Alléxya/Teste 18.jpg",
+      "similarity_gpt4o_mini": 82.04930877685547,
+      "similarity_gemini": 85.1014404296875,
+      "baseline_time": 8.62212586402893,
+      "gpt4o_mini_time": 5.5354249477386475,
+      "gemini_time": 3.1937339305877686
+    },
+    {
+      "test_number": 15,
+      "image_path": "Alléxya/Teste 19 (2).jpg",
+      "similarity_gpt4o_mini": 70.39387512207031,
+      "similarity_gemini": 76.2558364868164,
+      "baseline_time": 8.098428964614868,
+      "gpt4o_mini_time": 4.887995004653931,
+      "gemini_time": 2.649923086166382
+    },
+    {
+      "test_number": 16,
+      "image_path": "Alléxya/Teste 19.jpg",
+      "similarity_gpt4o_mini": 82.0367431640625,
+      "similarity_gemini": 77.8071517944336,
+      "baseline_time": 8.772238969802856,
+      "gpt4o_mini_time": 4.255881309509277,
+      "gemini_time": 2.1446831226348877
+    },
+    {
+      "test_number": 17,
+      "image_path": "Alléxya/Teste 2.jpeg",
+      "similarity_gpt4o_mini": 82.3156967163086,
+      "similarity_gemini": 88.11688995361328,
+      "baseline_time": 10.891118049621582,
+      "gpt4o_mini_time": 4.93324089050293,
+      "gemini_time": 2.5550849437713623
+    },
+    {
+      "test_number": 18,
+      "image_path": "Alléxya/Teste 3.jpg",
+      "similarity_gpt4o_mini": 87.22692108154297,
+      "similarity_gemini": 85.25972747802734,
+      "baseline_time": 8.724027872085571,
+      "gpt4o_mini_time": 5.931984901428223,
+      "gemini_time": 2.606019973754883
+    },
+    {
+      "test_number": 19,
+      "image_path": "Alléxya/Teste 4.jpg",
+      "similarity_gpt4o_mini": 78.46510314941406,
+      "similarity_gemini": 75.23076629638672,
+      "baseline_time": 7.991537094116211,
+      "gpt4o_mini_time": 4.436599254608154,
+      "gemini_time": 2.319930076599121
+    },
+    {
+      "test_number": 20,
+      "image_path": "Alléxya/Teste 5.jpg",
+      "similarity_gpt4o_mini": 79.62721252441406,
+      "similarity_gemini": 90.26268768310547,
+      "baseline_time": 8.450170755386353,
+      "gpt4o_mini_time": 5.249331951141357,
+      "gemini_time": 2.546703815460205
+    },
+    {
+      "test_number": 21,
+      "image_path": "Alléxya/Teste 6.jpg",
+      "similarity_gpt4o_mini": 81.43060302734375,
+      "similarity_gemini": 82.69976043701172,
+      "baseline_time": 11.467702865600586,
+      "gpt4o_mini_time": 5.560436964035034,
+      "gemini_time": 6.6045050621032715
+    },
+    {
+      "test_number": 22,
+      "image_path": "Alléxya/Teste 7.jpg",
+      "similarity_gpt4o_mini": 76.71337890625,
+      "similarity_gemini": 91.20855712890625,
+      "baseline_time": 10.853037118911743,
+      "gpt4o_mini_time": 4.221340894699097,
+      "gemini_time": 3.276664972305298
+    },
+    {
+      "test_number": 23,
+      "image_path": "Alléxya/Teste 8.jpg",
+      "similarity_gpt4o_mini": 67.4560317993164,
+      "similarity_gemini": 89.25904846191406,
+      "baseline_time": 9.538978815078735,
+      "gpt4o_mini_time": 4.869703769683838,
+      "gemini_time": 2.0765812397003174
+    },
+    {
+      "test_number": 24,
+      "image_path": "Alléxya/Teste 9.jpeg",
+      "similarity_gpt4o_mini": 80.12206268310547,
+      "similarity_gemini": 78.45233917236328,
+      "baseline_time": 10.880655765533447,
+      "gpt4o_mini_time": 6.617786884307861,
+      "gemini_time": 2.560939073562622
+    },
+    {
+      "test_number": 25,
+      "image_path": "Bergallo/Teste 1.png",
+      "similarity_gpt4o_mini": 60.533546447753906,
+      "similarity_gemini": 76.26707458496094,
+      "baseline_time": 13.700512170791626,
+      "gpt4o_mini_time": 5.153120994567871,
+      "gemini_time": 2.543241024017334
+    },
+    {
+      "test_number": 26,
+      "image_path": "Bergallo/Teste 10.png",
+      "similarity_gpt4o_mini": 77.24760437011719,
+      "similarity_gemini": 83.47805786132812,
+      "baseline_time": 7.49592924118042,
+      "gpt4o_mini_time": 3.9422619342803955,
+      "gemini_time": 2.2352490425109863
+    },
+    {
+      "test_number": 27,
+      "image_path": "Bergallo/Teste 2.png",
+      "similarity_gpt4o_mini": 84.35438537597656,
+      "similarity_gemini": 88.47062683105469,
+      "baseline_time": 10.493468999862671,
+      "gpt4o_mini_time": 5.32879900932312,
+      "gemini_time": 2.260127067565918
+    },
+    {
+      "test_number": 28,
+      "image_path": "Bergallo/Teste 3.png",
+      "similarity_gpt4o_mini": 83.20899200439453,
+      "similarity_gemini": 80.57421112060547,
+      "baseline_time": 10.165756940841675,
+      "gpt4o_mini_time": 4.500265836715698,
+      "gemini_time": 2.3888766765594482
+    },
+    {
+      "test_number": 29,
+      "image_path": "Bergallo/Teste 4.jpg",
+      "similarity_gpt4o_mini": 79.74961853027344,
+      "similarity_gemini": 73.9578628540039,
+      "baseline_time": 11.580936908721924,
+      "gpt4o_mini_time": 5.183112859725952,
+      "gemini_time": 2.8277220726013184
+    },
+    {
+      "test_number": 30,
+      "image_path": "Bergallo/Teste 5.jpg",
+      "similarity_gpt4o_mini": 83.4178237915039,
+      "similarity_gemini": 86.10467529296875,
+      "baseline_time": 6.487385272979736,
+      "gpt4o_mini_time": 5.409555912017822,
+      "gemini_time": 2.1540398597717285
+    },
+    {
+      "test_number": 31,
+      "image_path": "Bergallo/Teste 6.jpg",
+      "similarity_gpt4o_mini": 67.66378784179688,
+      "similarity_gemini": 79.34735107421875,
+      "baseline_time": 8.788892269134521,
+      "gpt4o_mini_time": 5.156147003173828,
+      "gemini_time": 2.156285047531128
+    },
+    {
+      "test_number": 32,
+      "image_path": "Bergallo/Teste 8.jpeg",
+      "similarity_gpt4o_mini": 69.93919372558594,
+      "similarity_gemini": 80.47710418701172,
+      "baseline_time": 9.229964017868042,
+      "gpt4o_mini_time": 5.810593843460083,
+      "gemini_time": 2.6805460453033447
+    },
+    {
+      "test_number": 33,
+      "image_path": "Bergallo/Teste 9.jpeg",
+      "similarity_gpt4o_mini": 76.78983306884766,
+      "similarity_gemini": 83.47966766357422,
+      "baseline_time": 8.918406009674072,
+      "gpt4o_mini_time": 5.9968531131744385,
+      "gemini_time": 2.6179471015930176
+    },
+    {
+      "test_number": 34,
+      "image_path": "Bergallo/Teste7.png",
+      "similarity_gpt4o_mini": 76.60015869140625,
+      "similarity_gemini": 83.35535430908203,
+      "baseline_time": 12.583333730697632,
+      "gpt4o_mini_time": 4.6282477378845215,
+      "gemini_time": 3.13332200050354
+    },
+    {
+      "test_number": 35,
+      "image_path": "Bergallo (imagens com texto)/Teste 1.jpg",
+      "similarity_gpt4o_mini": 84.51568603515625,
+      "similarity_gemini": 74.77960968017578,
+      "baseline_time": 6.773488998413086,
+      "gpt4o_mini_time": 5.354945182800293,
+      "gemini_time": 3.4075570106506348
+    },
+    {
+      "test_number": 36,
+      "image_path": "Bergallo (imagens com texto)/Teste 10.jpg",
+      "similarity_gpt4o_mini": 77.97588348388672,
+      "similarity_gemini": 80.6650390625,
+      "baseline_time": 13.650625228881836,
+      "gpt4o_mini_time": 5.617208003997803,
+      "gemini_time": 3.3386261463165283
+    },
+    {
+      "test_number": 37,
+      "image_path": "Bergallo (imagens com texto)/Teste 11.jpg",
+      "similarity_gpt4o_mini": 89.59357452392578,
+      "similarity_gemini": 90.30435180664062,
+      "baseline_time": 14.834083080291748,
+      "gpt4o_mini_time": 6.1265668869018555,
+      "gemini_time": 4.06703519821167
+    },
+    {
+      "test_number": 38,
+      "image_path": "Bergallo (imagens com texto)/Teste 12.jpg",
+      "similarity_gpt4o_mini": 81.49858856201172,
+      "similarity_gemini": 89.25118255615234,
+      "baseline_time": 19.365026712417603,
+      "gpt4o_mini_time": 5.725174903869629,
+      "gemini_time": 3.679201126098633
+    },
+    {
+      "test_number": 39,
+      "image_path": "Bergallo (imagens com texto)/Teste 13.jpg",
+      "similarity_gpt4o_mini": 89.38689422607422,
+      "similarity_gemini": 88.46014404296875,
+      "baseline_time": 12.670541763305664,
+      "gpt4o_mini_time": 10.710761785507202,
+      "gemini_time": 3.560340166091919
+    },
+    {
+      "test_number": 40,
+      "image_path": "Bergallo (imagens com texto)/Teste 14.jpg",
+      "similarity_gpt4o_mini": 96.66909790039062,
+      "similarity_gemini": 98.23609161376953,
+      "baseline_time": 10.533398151397705,
+      "gpt4o_mini_time": 7.19327187538147,
+      "gemini_time": 3.3838050365448
+    },
+    {
+      "test_number": 41,
+      "image_path": "Bergallo (imagens com texto)/Teste 15.jpg",
+      "similarity_gpt4o_mini": 78.0604476928711,
+      "similarity_gemini": 83.55210876464844,
+      "baseline_time": 6.58062481880188,
+      "gpt4o_mini_time": 4.653048276901245,
+      "gemini_time": 4.518373012542725
+    },
+    {
+      "test_number": 42,
+      "image_path": "Bergallo (imagens com texto)/Teste 16.jpg",
+      "similarity_gpt4o_mini": 78.06663513183594,
+      "similarity_gemini": 89.30033874511719,
+      "baseline_time": 9.505736827850342,
+      "gpt4o_mini_time": 5.100496292114258,
+      "gemini_time": 3.7709639072418213
+    },
+    {
+      "test_number": 43,
+      "image_path": "Bergallo (imagens com texto)/Teste 17.jpg",
+      "similarity_gpt4o_mini": 88.97152709960938,
+      "similarity_gemini": 95.19679260253906,
+      "baseline_time": 12.07909107208252,
+      "gpt4o_mini_time": 6.802947044372559,
+      "gemini_time": 3.93684720993042
+    },
+    {
+      "test_number": 44,
+      "image_path": "Bergallo (imagens com texto)/Teste 18.jpg",
+      "similarity_gpt4o_mini": 88.2233657836914,
+      "similarity_gemini": 95.7785873413086,
+      "baseline_time": 9.70576000213623,
+      "gpt4o_mini_time": 9.80903697013855,
+      "gemini_time": 3.4621682167053223
+    },
+    {
+      "test_number": 45,
+      "image_path": "Bergallo (imagens com texto)/Teste 2.png",
+      "similarity_gpt4o_mini": 88.166259765625,
+      "similarity_gemini": 90.93106842041016,
+      "baseline_time": 12.711987257003784,
+      "gpt4o_mini_time": 7.301134824752808,
+      "gemini_time": 5.121548891067505
+    },
+    {
+      "test_number": 46,
+      "image_path": "Bergallo (imagens com texto)/Teste 3.jpg",
+      "similarity_gpt4o_mini": 90.1271743774414,
+      "similarity_gemini": 88.47188568115234,
+      "baseline_time": 15.409662008285522,
+      "gpt4o_mini_time": 8.374684810638428,
+      "gemini_time": 4.670928239822388
+    },
+    {
+      "test_number": 47,
+      "image_path": "Bergallo (imagens com texto)/Teste 4.jpg",
+      "similarity_gpt4o_mini": 84.06990814208984,
+      "similarity_gemini": 95.07289123535156,
+      "baseline_time": 13.860045194625854,
+      "gpt4o_mini_time": 7.3750457763671875,
+      "gemini_time": 3.27194881439209
+    },
+    {
+      "test_number": 48,
+      "image_path": "Bergallo (imagens com texto)/Teste 5.jpg",
+      "similarity_gpt4o_mini": 92.5826187133789,
+      "similarity_gemini": 95.02313995361328,
+      "baseline_time": 12.539720058441162,
+      "gpt4o_mini_time": 10.844090700149536,
+      "gemini_time": 3.953731060028076
+    },
+    {
+      "test_number": 49,
+      "image_path": "Bergallo (imagens com texto)/Teste 6.jpg",
+      "similarity_gpt4o_mini": 89.06489562988281,
+      "similarity_gemini": 91.69942474365234,
+      "baseline_time": 18.967031717300415,
+      "gpt4o_mini_time": 8.594750165939331,
+      "gemini_time": 4.765546798706055
+    },
+    {
+      "test_number": 50,
+      "image_path": "Bergallo (imagens com texto)/Teste 7.jpg",
+      "similarity_gpt4o_mini": 89.30733489990234,
+      "similarity_gemini": 94.15987396240234,
+      "baseline_time": 8.633059740066528,
+      "gpt4o_mini_time": 5.7513108253479,
+      "gemini_time": 3.189419984817505
+    },
+    {
+      "test_number": 51,
+      "image_path": "Bergallo (imagens com texto)/Teste 8.jpg",
+      "similarity_gpt4o_mini": 89.01846313476562,
+      "similarity_gemini": 57.50455856323242,
+      "baseline_time": 10.585132598876953,
+      "gpt4o_mini_time": 4.860327959060669,
+      "gemini_time": 158.39494609832764
+    },
+    {
+      "test_number": 52,
+      "image_path": "Bergallo (imagens com texto)/Teste 9.jpg",
+      "similarity_gpt4o_mini": 69.9800033569336,
+      "similarity_gemini": 85.94889068603516,
+      "baseline_time": 8.926893711090088,
+      "gpt4o_mini_time": 5.242315053939819,
+      "gemini_time": 4.4321699142456055
+    },
+    {
+      "test_number": 53,
+      "image_path": "Bergallo (imagens com texto)/Teste-19.jpg",
+      "similarity_gpt4o_mini": 85.44596099853516,
+      "similarity_gemini": 93.9944839477539,
+      "baseline_time": 12.544677019119263,
+      "gpt4o_mini_time": 5.96262788772583,
+      "gemini_time": 4.561831951141357
+    },
+    {
+      "test_number": 54,
+      "image_path": "Bergallo (imagens com texto)/Teste20.jpg",
+      "similarity_gpt4o_mini": 86.16665649414062,
+      "similarity_gemini": 94.28852844238281,
+      "baseline_time": 10.118860960006714,
+      "gpt4o_mini_time": 5.631154775619507,
+      "gemini_time": 3.883894920349121
+    },
+    {
+      "test_number": 55,
+      "image_path": "Bernardo/01.png",
+      "similarity_gpt4o_mini": 91.32300567626953,
+      "similarity_gemini": 96.0555419921875,
+      "baseline_time": 12.045120000839233,
+      "gpt4o_mini_time": 5.866146802902222,
+      "gemini_time": 2.3575050830841064
+    },
+    {
+      "test_number": 56,
+      "image_path": "Bernardo/02.png",
+      "similarity_gpt4o_mini": 85.10511779785156,
+      "similarity_gemini": 91.36238098144531,
+      "baseline_time": 9.790199041366577,
+      "gpt4o_mini_time": 4.449970006942749,
+      "gemini_time": 2.7233119010925293
+    },
+    {
+      "test_number": 57,
+      "image_path": "Bernardo/03.png",
+      "similarity_gpt4o_mini": 93.05548858642578,
+      "similarity_gemini": 85.06721496582031,
+      "baseline_time": 7.250416994094849,
+      "gpt4o_mini_time": 5.91141676902771,
+      "gemini_time": 2.171048879623413
+    },
+    {
+      "test_number": 58,
+      "image_path": "Bernardo/04.png",
+      "similarity_gpt4o_mini": 87.12570190429688,
+      "similarity_gemini": 83.88158416748047,
+      "baseline_time": 7.404230117797852,
+      "gpt4o_mini_time": 4.556174039840698,
+      "gemini_time": 2.683746814727783
+    },
+    {
+      "test_number": 59,
+      "image_path": "Bernardo/05.png",
+      "similarity_gpt4o_mini": 89.85127258300781,
+      "similarity_gemini": 87.61492919921875,
+      "baseline_time": 10.48045301437378,
+      "gpt4o_mini_time": 3.664731979370117,
+      "gemini_time": 3.2644190788269043
+    },
+    {
+      "test_number": 60,
+      "image_path": "Bernardo/06.png",
+      "similarity_gpt4o_mini": 82.44855499267578,
+      "similarity_gemini": 81.42933654785156,
+      "baseline_time": 10.19545292854309,
+      "gpt4o_mini_time": 4.80019998550415,
+      "gemini_time": 2.5915257930755615
+    },
+    {
+      "test_number": 61,
+      "image_path": "Bernardo/07.png",
+      "similarity_gpt4o_mini": 90.52709197998047,
+      "similarity_gemini": 88.99754333496094,
+      "baseline_time": 9.318028211593628,
+      "gpt4o_mini_time": 5.757023811340332,
+      "gemini_time": 3.038288116455078
+    },
+    {
+      "test_number": 62,
+      "image_path": "Bernardo/08.png",
+      "similarity_gpt4o_mini": 81.26213836669922,
+      "similarity_gemini": 79.21251678466797,
+      "baseline_time": 8.17473316192627,
+      "gpt4o_mini_time": 4.512624979019165,
+      "gemini_time": 3.03889799118042
+    },
+    {
+      "test_number": 63,
+      "image_path": "Bernardo/09.png",
+      "similarity_gpt4o_mini": 66.28952026367188,
+      "similarity_gemini": 63.382972717285156,
+      "baseline_time": 8.061934232711792,
+      "gpt4o_mini_time": 4.142194032669067,
+      "gemini_time": 2.770719051361084
+    },
+    {
+      "test_number": 64,
+      "image_path": "Bernardo/10.png",
+      "similarity_gpt4o_mini": 87.12372589111328,
+      "similarity_gemini": 76.83856964111328,
+      "baseline_time": 5.844681024551392,
+      "gpt4o_mini_time": 3.996028184890747,
+      "gemini_time": 2.6297788619995117
+    },
+    {
+      "test_number": 65,
+      "image_path": "Bernardo/11.png",
+      "similarity_gpt4o_mini": 80.68405151367188,
+      "similarity_gemini": 86.9214859008789,
+      "baseline_time": 8.052633047103882,
+      "gpt4o_mini_time": 4.563528060913086,
+      "gemini_time": 2.2343218326568604
+    },
+    {
+      "test_number": 66,
+      "image_path": "Bernardo/12.png",
+      "similarity_gpt4o_mini": 80.90673065185547,
+      "similarity_gemini": 86.55213928222656,
+      "baseline_time": 6.300169944763184,
+      "gpt4o_mini_time": 4.651058197021484,
+      "gemini_time": 2.204200267791748
+    },
+    {
+      "test_number": 67,
+      "image_path": "Bernardo/13.png",
+      "similarity_gpt4o_mini": 82.90306091308594,
+      "similarity_gemini": 88.38459777832031,
+      "baseline_time": 7.4005560874938965,
+      "gpt4o_mini_time": 4.240254163742065,
+      "gemini_time": 2.6035962104797363
+    },
+    {
+      "test_number": 68,
+      "image_path": "Bernardo/14.png",
+      "similarity_gpt4o_mini": 85.93921661376953,
+      "similarity_gemini": 87.54036712646484,
+      "baseline_time": 8.653939962387085,
+      "gpt4o_mini_time": 4.202912092208862,
+      "gemini_time": 2.6937999725341797
+    },
+    {
+      "test_number": 69,
+      "image_path": "Bernardo/15.png",
+      "similarity_gpt4o_mini": 83.50858306884766,
+      "similarity_gemini": 83.29705047607422,
+      "baseline_time": 8.146368026733398,
+      "gpt4o_mini_time": 4.154095888137817,
+      "gemini_time": 2.100778818130493
+    },
+    {
+      "test_number": 70,
+      "image_path": "Caroline/Teste 1.jpg",
+      "similarity_gpt4o_mini": 79.99533081054688,
+      "similarity_gemini": 85.05989074707031,
+      "baseline_time": 6.841145038604736,
+      "gpt4o_mini_time": 4.622808933258057,
+      "gemini_time": 2.444139003753662
+    },
+    {
+      "test_number": 71,
+      "image_path": "Caroline/Teste-10.jpg",
+      "similarity_gpt4o_mini": 72.27664947509766,
+      "similarity_gemini": 79.42913818359375,
+      "baseline_time": 8.056857109069824,
+      "gpt4o_mini_time": 4.730535268783569,
+      "gemini_time": 3.2196290493011475
+    },
+    {
+      "test_number": 72,
+      "image_path": "Caroline/Teste-11.jpg",
+      "similarity_gpt4o_mini": 77.23395538330078,
+      "similarity_gemini": 87.601318359375,
+      "baseline_time": 10.324717044830322,
+      "gpt4o_mini_time": 4.559032917022705,
+      "gemini_time": 2.9144251346588135
+    },
+    {
+      "test_number": 73,
+      "image_path": "Caroline/Teste-12.jpg",
+      "similarity_gpt4o_mini": 48.10008239746094,
+      "similarity_gemini": 44.3952522277832,
+      "baseline_time": 2.3203258514404297,
+      "gpt4o_mini_time": 3.39666485786438,
+      "gemini_time": 2.7820699214935303
+    },
+    {
+      "test_number": 74,
+      "image_path": "Caroline/Teste-13.jpg",
+      "similarity_gpt4o_mini": 65.35779571533203,
+      "similarity_gemini": 56.51780319213867,
+      "baseline_time": 2.30147385597229,
+      "gpt4o_mini_time": 4.396146059036255,
+      "gemini_time": 2.815402030944824
+    },
+    {
+      "test_number": 75,
+      "image_path": "Caroline/Teste-14.jpg",
+      "similarity_gpt4o_mini": 59.491180419921875,
+      "similarity_gemini": 53.28734588623047,
+      "baseline_time": 2.7047150135040283,
+      "gpt4o_mini_time": 4.566946029663086,
+      "gemini_time": 2.4817581176757812
+    },
+    {
+      "test_number": 76,
+      "image_path": "Caroline/Teste-15.jpg",
+      "similarity_gpt4o_mini": 72.30750274658203,
+      "similarity_gemini": 74.21260070800781,
+      "baseline_time": 9.245539903640747,
+      "gpt4o_mini_time": 12.62964415550232,
+      "gemini_time": 2.5521628856658936
+    },
+    {
+      "test_number": 77,
+      "image_path": "Caroline/Teste-2.png",
+      "similarity_gpt4o_mini": 85.01358795166016,
+      "similarity_gemini": 84.66838836669922,
+      "baseline_time": 7.115819692611694,
+      "gpt4o_mini_time": 4.094586133956909,
+      "gemini_time": 2.3277230262756348
+    },
+    {
+      "test_number": 78,
+      "image_path": "Caroline/Teste-3.jpg",
+      "similarity_gpt4o_mini": 80.21623992919922,
+      "similarity_gemini": 74.55117797851562,
+      "baseline_time": 8.417021036148071,
+      "gpt4o_mini_time": 4.616885185241699,
+      "gemini_time": 3.1912009716033936
+    },
+    {
+      "test_number": 79,
+      "image_path": "Caroline/Teste-4.jpg",
+      "similarity_gpt4o_mini": 87.81149291992188,
+      "similarity_gemini": 85.79964447021484,
+      "baseline_time": 7.459654092788696,
+      "gpt4o_mini_time": 4.583254098892212,
+      "gemini_time": 3.5857479572296143
+    },
+    {
+      "test_number": 80,
+      "image_path": "Caroline/Teste-5.jpg",
+      "similarity_gpt4o_mini": 70.81838989257812,
+      "similarity_gemini": 80.05036926269531,
+      "baseline_time": 7.893890142440796,
+      "gpt4o_mini_time": 4.6333770751953125,
+      "gemini_time": 3.318068027496338
+    },
+    {
+      "test_number": 81,
+      "image_path": "Caroline/Teste-6.jpg",
+      "similarity_gpt4o_mini": 84.60364532470703,
+      "similarity_gemini": 90.14141082763672,
+      "baseline_time": 9.882718801498413,
+      "gpt4o_mini_time": 4.91471004486084,
+      "gemini_time": 4.4971089363098145
+    },
+    {
+      "test_number": 82,
+      "image_path": "Caroline/Teste-7.jpg",
+      "similarity_gpt4o_mini": 51.59306335449219,
+      "similarity_gemini": 55.10711669921875,
+      "baseline_time": 2.668739080429077,
+      "gpt4o_mini_time": 7.185924768447876,
+      "gemini_time": 2.6279208660125732
+    },
+    {
+      "test_number": 83,
+      "image_path": "Caroline/Teste-8.png",
+      "similarity_gpt4o_mini": 78.3652572631836,
+      "similarity_gemini": 86.98900604248047,
+      "baseline_time": 9.44425916671753,
+      "gpt4o_mini_time": 5.4984290599823,
+      "gemini_time": 2.381650924682617
+    },
+    {
+      "test_number": 84,
+      "image_path": "Caroline/Teste-9.png",
+      "similarity_gpt4o_mini": 79.83926391601562,
+      "similarity_gemini": 79.16963195800781,
+      "baseline_time": 13.740986108779907,
+      "gpt4o_mini_time": 3.4966180324554443,
+      "gemini_time": 2.0997908115386963
+    },
+    {
+      "test_number": 85,
+      "image_path": "Dolores/Teste 1.png",
+      "similarity_gpt4o_mini": 86.13522338867188,
+      "similarity_gemini": 71.3239517211914,
+      "baseline_time": 22.99694013595581,
+      "gpt4o_mini_time": 7.51988673210144,
+      "gemini_time": 4.260666131973267
+    },
+    {
+      "test_number": 86,
+      "image_path": "Dolores/Teste 10.jpg",
+      "similarity_gpt4o_mini": 83.8438491821289,
+      "similarity_gemini": 85.63955688476562,
+      "baseline_time": 13.05822205543518,
+      "gpt4o_mini_time": 4.7789740562438965,
+      "gemini_time": 2.7288479804992676
+    },
+    {
+      "test_number": 87,
+      "image_path": "Dolores/Teste 11.jpg",
+      "similarity_gpt4o_mini": 85.90797424316406,
+      "similarity_gemini": 90.33614349365234,
+      "baseline_time": 7.906758785247803,
+      "gpt4o_mini_time": 4.70869779586792,
+      "gemini_time": 3.7147350311279297
+    },
+    {
+      "test_number": 88,
+      "image_path": "Dolores/Teste 12.png",
+      "similarity_gpt4o_mini": 88.48788452148438,
+      "similarity_gemini": 84.88422393798828,
+      "baseline_time": 12.290108919143677,
+      "gpt4o_mini_time": 5.140482187271118,
+      "gemini_time": 2.479374885559082
+    },
+    {
+      "test_number": 89,
+      "image_path": "Dolores/Teste 13.png",
+      "similarity_gpt4o_mini": 68.77494812011719,
+      "similarity_gemini": 75.17488861083984,
+      "baseline_time": 6.483775854110718,
+      "gpt4o_mini_time": 3.8878860473632812,
+      "gemini_time": 2.79849910736084
+    },
+    {
+      "test_number": 90,
+      "image_path": "Dolores/Teste 14.png",
+      "similarity_gpt4o_mini": 83.99694061279297,
+      "similarity_gemini": 85.33184814453125,
+      "baseline_time": 7.136772155761719,
+      "gpt4o_mini_time": 5.7358598709106445,
+      "gemini_time": 2.4761850833892822
+    },
+    {
+      "test_number": 91,
+      "image_path": "Dolores/Teste 15.png",
+      "similarity_gpt4o_mini": 86.04308319091797,
+      "similarity_gemini": 80.11479187011719,
+      "baseline_time": 6.160499811172485,
+      "gpt4o_mini_time": 4.490934133529663,
+      "gemini_time": 2.5675220489501953
+    },
+    {
+      "test_number": 92,
+      "image_path": "Dolores/Teste 2.jpg",
+      "similarity_gpt4o_mini": 84.80299377441406,
+      "similarity_gemini": 78.26306915283203,
+      "baseline_time": 9.703542709350586,
+      "gpt4o_mini_time": 5.248783111572266,
+      "gemini_time": 2.0860137939453125
+    },
+    {
+      "test_number": 93,
+      "image_path": "Dolores/Teste 3.png",
+      "similarity_gpt4o_mini": 78.28333282470703,
+      "similarity_gemini": 71.62246704101562,
+      "baseline_time": 6.138574123382568,
+      "gpt4o_mini_time": 5.070048570632935,
+      "gemini_time": 2.4556970596313477
+    },
+    {
+      "test_number": 94,
+      "image_path": "Dolores/Teste 4.jpg",
+      "similarity_gpt4o_mini": 75.94209289550781,
+      "similarity_gemini": 72.81969451904297,
+      "baseline_time": 6.999326229095459,
+      "gpt4o_mini_time": 4.0871827602386475,
+      "gemini_time": 2.8587241172790527
+    },
+    {
+      "test_number": 95,
+      "image_path": "Dolores/Teste 5.jpg",
+      "similarity_gpt4o_mini": 82.28944396972656,
+      "similarity_gemini": 87.35226440429688,
+      "baseline_time": 6.735306024551392,
+      "gpt4o_mini_time": 5.062168836593628,
+      "gemini_time": 2.5558719635009766
+    },
+    {
+      "test_number": 96,
+      "image_path": "Dolores/Teste 6.png",
+      "similarity_gpt4o_mini": 76.13078308105469,
+      "similarity_gemini": 76.8031234741211,
+      "baseline_time": 6.429603099822998,
+      "gpt4o_mini_time": 4.6341941356658936,
+      "gemini_time": 1.8797643184661865
+    },
+    {
+      "test_number": 97,
+      "image_path": "Dolores/Teste 7.jpg",
+      "similarity_gpt4o_mini": 72.27336883544922,
+      "similarity_gemini": 74.39263153076172,
+      "baseline_time": 6.716811895370483,
+      "gpt4o_mini_time": 5.903270959854126,
+      "gemini_time": 2.221073865890503
+    },
+    {
+      "test_number": 98,
+      "image_path": "Dolores/Teste 8.jpg",
+      "similarity_gpt4o_mini": 73.68013000488281,
+      "similarity_gemini": 75.54902648925781,
+      "baseline_time": 9.309721946716309,
+      "gpt4o_mini_time": 3.591491222381592,
+      "gemini_time": 2.3207688331604004
+    },
+    {
+      "test_number": 99,
+      "image_path": "Dolores/Teste 9.jpg",
+      "similarity_gpt4o_mini": 80.45552825927734,
+      "similarity_gemini": 87.28209686279297,
+      "baseline_time": 9.211387157440186,
+      "gpt4o_mini_time": 4.589843273162842,
+      "gemini_time": 2.3276617527008057
+    },
+    {
+      "test_number": 100,
+      "image_path": "Filipe/Teste 1.jpg",
+      "similarity_gpt4o_mini": 90.57170104980469,
+      "similarity_gemini": 83.18203735351562,
+      "baseline_time": 5.221926927566528,
+      "gpt4o_mini_time": 4.446155071258545,
+      "gemini_time": 2.532633066177368
+    },
+    {
+      "test_number": 101,
+      "image_path": "Filipe/Teste 10.png",
+      "similarity_gpt4o_mini": 60.436344146728516,
+      "similarity_gemini": 67.56670379638672,
+      "baseline_time": 5.555866003036499,
+      "gpt4o_mini_time": 4.030718803405762,
+      "gemini_time": 2.4772017002105713
+    },
+    {
+      "test_number": 102,
+      "image_path": "Filipe/Teste 2.jpg",
+      "similarity_gpt4o_mini": 76.84696197509766,
+      "similarity_gemini": 90.44180297851562,
+      "baseline_time": 6.854256868362427,
+      "gpt4o_mini_time": 3.3774118423461914,
+      "gemini_time": 2.2662580013275146
+    },
+    {
+      "test_number": 103,
+      "image_path": "Filipe/Teste 3.jpg",
+      "similarity_gpt4o_mini": 81.47952270507812,
+      "similarity_gemini": 91.81370544433594,
+      "baseline_time": 6.91811466217041,
+      "gpt4o_mini_time": 5.290210962295532,
+      "gemini_time": 2.3091230392456055
+    },
+    {
+      "test_number": 104,
+      "image_path": "Filipe/Teste 4.jpg",
+      "similarity_gpt4o_mini": 74.15585327148438,
+      "similarity_gemini": 90.01600646972656,
+      "baseline_time": 7.894666433334351,
+      "gpt4o_mini_time": 4.568079948425293,
+      "gemini_time": 2.712613105773926
+    },
+    {
+      "test_number": 105,
+      "image_path": "Filipe/Teste 5.jpg",
+      "similarity_gpt4o_mini": 89.81257629394531,
+      "similarity_gemini": 81.3919677734375,
+      "baseline_time": 6.9611358642578125,
+      "gpt4o_mini_time": 3.707059860229492,
+      "gemini_time": 2.103321075439453
+    },
+    {
+      "test_number": 106,
+      "image_path": "Filipe/Teste 6.jpg",
+      "similarity_gpt4o_mini": 88.66690063476562,
+      "similarity_gemini": 83.39300537109375,
+      "baseline_time": 6.627194166183472,
+      "gpt4o_mini_time": 4.056563138961792,
+      "gemini_time": 3.7274861335754395
+    },
+    {
+      "test_number": 107,
+      "image_path": "Filipe/Teste 7.jpg",
+      "similarity_gpt4o_mini": 86.24980163574219,
+      "similarity_gemini": 82.73252868652344,
+      "baseline_time": 7.808946847915649,
+      "gpt4o_mini_time": 3.864806890487671,
+      "gemini_time": 1.9363429546356201
+    },
+    {
+      "test_number": 108,
+      "image_path": "Filipe/Teste 8.jpg",
+      "similarity_gpt4o_mini": 89.9867172241211,
+      "similarity_gemini": 82.29583740234375,
+      "baseline_time": 8.789588928222656,
+      "gpt4o_mini_time": 5.245800971984863,
+      "gemini_time": 3.662194013595581
+    },
+    {
+      "test_number": 109,
+      "image_path": "Filipe/Teste 9.jpg",
+      "similarity_gpt4o_mini": 88.15470886230469,
+      "similarity_gemini": 90.60910034179688,
+      "baseline_time": 5.837122917175293,
+      "gpt4o_mini_time": 3.242663860321045,
+      "gemini_time": 1.8146710395812988
+    },
+    {
+      "test_number": 110,
+      "image_path": "Giovanni/Teste 1.png",
+      "similarity_gpt4o_mini": 71.90299224853516,
+      "similarity_gemini": 93.83414459228516,
+      "baseline_time": 5.664218902587891,
+      "gpt4o_mini_time": 4.360206842422485,
+      "gemini_time": 2.8583219051361084
+    },
+    {
+      "test_number": 111,
+      "image_path": "Giovanni/Teste 10.jpg",
+      "similarity_gpt4o_mini": 79.40011596679688,
+      "similarity_gemini": 75.33711242675781,
+      "baseline_time": 6.544567108154297,
+      "gpt4o_mini_time": 5.248928070068359,
+      "gemini_time": 2.9855310916900635
+    },
+    {
+      "test_number": 112,
+      "image_path": "Giovanni/Teste 11.jpg",
+      "similarity_gpt4o_mini": 75.20030975341797,
+      "similarity_gemini": 82.88990020751953,
+      "baseline_time": 6.365913152694702,
+      "gpt4o_mini_time": 4.398592710494995,
+      "gemini_time": 3.4257168769836426
+    },
+    {
+      "test_number": 113,
+      "image_path": "Giovanni/Teste 2.png",
+      "similarity_gpt4o_mini": 80.9785385131836,
+      "similarity_gemini": 84.60621643066406,
+      "baseline_time": 6.508055925369263,
+      "gpt4o_mini_time": 4.77621865272522,
+      "gemini_time": 2.7666869163513184
+    },
+    {
+      "test_number": 114,
+      "image_path": "Giovanni/Teste 3.jpg",
+      "similarity_gpt4o_mini": 68.39002227783203,
+      "similarity_gemini": 69.00721740722656,
+      "baseline_time": 8.41815996170044,
+      "gpt4o_mini_time": 4.930095911026001,
+      "gemini_time": 2.6644132137298584
+    },
+    {
+      "test_number": 115,
+      "image_path": "Giovanni/Teste 4.jpg",
+      "similarity_gpt4o_mini": 87.4826889038086,
+      "similarity_gemini": 90.53560638427734,
+      "baseline_time": 5.132298946380615,
+      "gpt4o_mini_time": 4.740645885467529,
+      "gemini_time": 2.3009190559387207
+    },
+    {
+      "test_number": 116,
+      "image_path": "Giovanni/Teste 5.jpg",
+      "similarity_gpt4o_mini": 89.55670928955078,
+      "similarity_gemini": 84.04905700683594,
+      "baseline_time": 7.622948884963989,
+      "gpt4o_mini_time": 6.203564167022705,
+      "gemini_time": 3.0258948802948
+    },
+    {
+      "test_number": 117,
+      "image_path": "Giovanni/Teste 6.jpg",
+      "similarity_gpt4o_mini": 87.20639038085938,
+      "similarity_gemini": 69.6019287109375,
+      "baseline_time": 6.412497043609619,
+      "gpt4o_mini_time": 7.185266017913818,
+      "gemini_time": 3.357841730117798
+    },
+    {
+      "test_number": 118,
+      "image_path": "Giovanni/Teste 7.jpg",
+      "similarity_gpt4o_mini": 80.37146759033203,
+      "similarity_gemini": 82.64603424072266,
+      "baseline_time": 8.171412229537964,
+      "gpt4o_mini_time": 7.621615886688232,
+      "gemini_time": 3.0657169818878174
+    },
+    {
+      "test_number": 119,
+      "image_path": "Giovanni/Teste 8.jpg",
+      "similarity_gpt4o_mini": 84.1518783569336,
+      "similarity_gemini": 87.4056396484375,
+      "baseline_time": 8.016194105148315,
+      "gpt4o_mini_time": 4.699896812438965,
+      "gemini_time": 2.911771297454834
+    },
+    {
+      "test_number": 120,
+      "image_path": "Giovanni/Teste 9.jpg",
+      "similarity_gpt4o_mini": 68.50227355957031,
+      "similarity_gemini": 67.0735855102539,
+      "baseline_time": 11.109243154525757,
+      "gpt4o_mini_time": 5.607793807983398,
+      "gemini_time": 2.1658260822296143
+    },
+    {
+      "test_number": 121,
+      "image_path": "Giovanni/teste 12.jpg",
+      "similarity_gpt4o_mini": 68.91981506347656,
+      "similarity_gemini": 73.85009765625,
+      "baseline_time": 12.984277963638306,
+      "gpt4o_mini_time": 4.298512935638428,
+      "gemini_time": 3.2609450817108154
+    },
+    {
+      "test_number": 122,
+      "image_path": "Guilherme (imagens com texto)/Teste 1 (antibiograma).png",
+      "similarity_gpt4o_mini": 92.79539489746094,
+      "similarity_gemini": 92.94046020507812,
+      "baseline_time": 17.433112859725952,
+      "gpt4o_mini_time": 8.392353057861328,
+      "gemini_time": 5.375269889831543
+    },
+    {
+      "test_number": 123,
+      "image_path": "Guilherme (imagens com texto)/Teste 10 (tomografia).jpg",
+      "similarity_gpt4o_mini": 91.82760620117188,
+      "similarity_gemini": 92.19540405273438,
+      "baseline_time": 14.312216997146606,
+      "gpt4o_mini_time": 6.825807094573975,
+      "gemini_time": 3.704583168029785
+    },
+    {
+      "test_number": 124,
+      "image_path": "Guilherme (imagens com texto)/Teste 11 (Tomografia).jpg",
+      "similarity_gpt4o_mini": 89.42407989501953,
+      "similarity_gemini": 89.40644836425781,
+      "baseline_time": 19.43191695213318,
+      "gpt4o_mini_time": 8.783091068267822,
+      "gemini_time": 4.448559761047363
+    },
+    {
+      "test_number": 125,
+      "image_path": "Guilherme (imagens com texto)/Teste 12 (Eletrocardiograma).jpg",
+      "similarity_gpt4o_mini": 96.53135681152344,
+      "similarity_gemini": 97.3631362915039,
+      "baseline_time": 8.037233829498291,
+      "gpt4o_mini_time": 17.434031009674072,
+      "gemini_time": 3.5094549655914307
+    },
+    {
+      "test_number": 126,
+      "image_path": "Guilherme (imagens com texto)/Teste 13 (Hemograma).png",
+      "similarity_gpt4o_mini": 87.67869567871094,
+      "similarity_gemini": 91.9658203125,
+      "baseline_time": 8.111589908599854,
+      "gpt4o_mini_time": 6.8236308097839355,
+      "gemini_time": 3.4560341835021973
+    },
+    {
+      "test_number": 127,
+      "image_path": "Guilherme (imagens com texto)/Teste 14 (Eletroforese).png",
+      "similarity_gpt4o_mini": 91.84950256347656,
+      "similarity_gemini": 91.3005142211914,
+      "baseline_time": 8.755811929702759,
+      "gpt4o_mini_time": 12.662071704864502,
+      "gemini_time": 3.0066518783569336
+    },
+    {
+      "test_number": 128,
+      "image_path": "Guilherme (imagens com texto)/Teste 2 (TC de tórax).png",
+      "similarity_gpt4o_mini": 83.3499755859375,
+      "similarity_gemini": 85.72576904296875,
+      "baseline_time": 24.89562702178955,
+      "gpt4o_mini_time": 11.044979810714722,
+      "gemini_time": 4.708494186401367
+    },
+    {
+      "test_number": 129,
+      "image_path": "Guilherme (imagens com texto)/Teste 3 (Gasometria).png",
+      "similarity_gpt4o_mini": 93.97791290283203,
+      "similarity_gemini": 78.31199645996094,
+      "baseline_time": 10.06489872932434,
+      "gpt4o_mini_time": 6.9362452030181885,
+      "gemini_time": 3.5660150051116943
+    },
+    {
+      "test_number": 130,
+      "image_path": "Guilherme (imagens com texto)/Teste 4 (TC de crânio).png",
+      "similarity_gpt4o_mini": 95.30039978027344,
+      "similarity_gemini": 95.66407775878906,
+      "baseline_time": 16.84160804748535,
+      "gpt4o_mini_time": 9.617241859436035,
+      "gemini_time": 3.7586519718170166
+    },
+    {
+      "test_number": 131,
+      "image_path": "Guilherme (imagens com texto)/Teste 5 (Gasometria).png",
+      "similarity_gpt4o_mini": 86.85304260253906,
+      "similarity_gemini": 88.3310317993164,
+      "baseline_time": 16.914178133010864,
+      "gpt4o_mini_time": 7.4370269775390625,
+      "gemini_time": 4.1709229946136475
+    },
+    {
+      "test_number": 132,
+      "image_path": "Guilherme (imagens com texto)/Teste 6 (Hemograma).png",
+      "similarity_gpt4o_mini": 88.01618957519531,
+      "similarity_gemini": 78.5903091430664,
+      "baseline_time": 16.33998680114746,
+      "gpt4o_mini_time": 7.013981103897095,
+      "gemini_time": 3.619178056716919
+    },
+    {
+      "test_number": 133,
+      "image_path": "Guilherme (imagens com texto)/Teste 7 (Proteinúria 24h).png",
+      "similarity_gpt4o_mini": 95.46614837646484,
+      "similarity_gemini": 91.55580139160156,
+      "baseline_time": 8.753085851669312,
+      "gpt4o_mini_time": 6.829986095428467,
+      "gemini_time": 3.5488388538360596
+    },
+    {
+      "test_number": 134,
+      "image_path": "Guilherme (imagens com texto)/Teste 8 (Hemograma).png",
+      "similarity_gpt4o_mini": 88.3888168334961,
+      "similarity_gemini": 81.06779479980469,
+      "baseline_time": 10.696365118026733,
+      "gpt4o_mini_time": 6.3424458503723145,
+      "gemini_time": 3.646383047103882
+    },
+    {
+      "test_number": 135,
+      "image_path": "Guilherme (imagens com texto)/Teste 9 (Hemograma).png",
+      "similarity_gpt4o_mini": 86.90859985351562,
+      "similarity_gemini": 87.61507415771484,
+      "baseline_time": 12.252549171447754,
+      "gpt4o_mini_time": 6.778855085372925,
+      "gemini_time": 3.529350996017456
+    },
+    {
+      "test_number": 136,
+      "image_path": "Isabela/Teste 1.jpg",
+      "similarity_gpt4o_mini": 87.2879867553711,
+      "similarity_gemini": 89.58528137207031,
+      "baseline_time": 12.422457218170166,
+      "gpt4o_mini_time": 6.158893823623657,
+      "gemini_time": 2.969219923019409
+    },
+    {
+      "test_number": 137,
+      "image_path": "Isabela/Teste 10.jpg",
+      "similarity_gpt4o_mini": 66.07671356201172,
+      "similarity_gemini": 59.7986946105957,
+      "baseline_time": 9.645049810409546,
+      "gpt4o_mini_time": 4.667695045471191,
+      "gemini_time": 2.5122549533843994
+    },
+    {
+      "test_number": 138,
+      "image_path": "Isabela/Teste 2.png",
+      "similarity_gpt4o_mini": 84.21187591552734,
+      "similarity_gemini": 82.0515365600586,
+      "baseline_time": 7.743891954421997,
+      "gpt4o_mini_time": 4.5371479988098145,
+      "gemini_time": 2.610426902770996
+    },
+    {
+      "test_number": 139,
+      "image_path": "Isabela/Teste 3.png",
+      "similarity_gpt4o_mini": 86.8327407836914,
+      "similarity_gemini": 84.60379028320312,
+      "baseline_time": 12.492264986038208,
+      "gpt4o_mini_time": 5.024061918258667,
+      "gemini_time": 2.4991958141326904
+    },
+    {
+      "test_number": 140,
+      "image_path": "Isabela/Teste 4.png",
+      "similarity_gpt4o_mini": 86.68994903564453,
+      "similarity_gemini": 90.06120300292969,
+      "baseline_time": 7.796446323394775,
+      "gpt4o_mini_time": 4.6372010707855225,
+      "gemini_time": 2.50128173828125
+    },
+    {
+      "test_number": 141,
+      "image_path": "Isabela/Teste 5.png",
+      "similarity_gpt4o_mini": 91.77201080322266,
+      "similarity_gemini": 93.68003845214844,
+      "baseline_time": 12.785151958465576,
+      "gpt4o_mini_time": 6.4176952838897705,
+      "gemini_time": 3.1997063159942627
+    },
+    {
+      "test_number": 142,
+      "image_path": "Isabela/Teste 6.png",
+      "similarity_gpt4o_mini": 85.89683532714844,
+      "similarity_gemini": 87.9349136352539,
+      "baseline_time": 7.355256080627441,
+      "gpt4o_mini_time": 5.042923927307129,
+      "gemini_time": 3.257484197616577
+    },
+    {
+      "test_number": 143,
+      "image_path": "Isabela/Teste 7.png",
+      "similarity_gpt4o_mini": 82.33969116210938,
+      "similarity_gemini": 87.63838195800781,
+      "baseline_time": 7.909698724746704,
+      "gpt4o_mini_time": 4.679174184799194,
+      "gemini_time": 2.576972007751465
+    },
+    {
+      "test_number": 144,
+      "image_path": "Isabela/Teste 8.png",
+      "similarity_gpt4o_mini": 84.90830993652344,
+      "similarity_gemini": 83.1878433227539,
+      "baseline_time": 8.773579835891724,
+      "gpt4o_mini_time": 4.778034210205078,
+      "gemini_time": 2.3979578018188477
+    },
+    {
+      "test_number": 145,
+      "image_path": "Isabela/Teste 9.png",
+      "similarity_gpt4o_mini": 80.42063903808594,
+      "similarity_gemini": 74.09944152832031,
+      "baseline_time": 9.991291999816895,
+      "gpt4o_mini_time": 4.960378885269165,
+      "gemini_time": 2.2416069507598877
+    },
+    {
+      "test_number": 146,
+      "image_path": "Marselle/Teste 1.jpg",
+      "similarity_gpt4o_mini": 87.11473846435547,
+      "similarity_gemini": 83.15465545654297,
+      "baseline_time": 6.927653074264526,
+      "gpt4o_mini_time": 5.065551280975342,
+      "gemini_time": 2.7938411235809326
+    },
+    {
+      "test_number": 147,
+      "image_path": "Marselle/Teste 10.jpg",
+      "similarity_gpt4o_mini": 83.38874053955078,
+      "similarity_gemini": 75.613525390625,
+      "baseline_time": 10.6755530834198,
+      "gpt4o_mini_time": 5.280224084854126,
+      "gemini_time": 3.2964980602264404
+    },
+    {
+      "test_number": 148,
+      "image_path": "Marselle/Teste 2.jpeg",
+      "similarity_gpt4o_mini": 85.75102996826172,
+      "similarity_gemini": 86.35323333740234,
+      "baseline_time": 6.812019109725952,
+      "gpt4o_mini_time": 4.03327202796936,
+      "gemini_time": 2.4771862030029297
+    },
+    {
+      "test_number": 149,
+      "image_path": "Marselle/Teste 3.jpg",
+      "similarity_gpt4o_mini": 86.7187728881836,
+      "similarity_gemini": 85.47048950195312,
+      "baseline_time": 7.319568872451782,
+      "gpt4o_mini_time": 6.042972803115845,
+      "gemini_time": 3.529301881790161
+    },
+    {
+      "test_number": 150,
+      "image_path": "Marselle/Teste 4.jpg",
+      "similarity_gpt4o_mini": 68.60710144042969,
+      "similarity_gemini": 73.4717025756836,
+      "baseline_time": 12.756306886672974,
+      "gpt4o_mini_time": 4.4853949546813965,
+      "gemini_time": 3.5552761554718018
+    },
+    {
+      "test_number": 151,
+      "image_path": "Marselle/Teste 5.png",
+      "similarity_gpt4o_mini": 80.18023681640625,
+      "similarity_gemini": 79.75570678710938,
+      "baseline_time": 7.821129083633423,
+      "gpt4o_mini_time": 5.749598026275635,
+      "gemini_time": 4.173311948776245
+    },
+    {
+      "test_number": 152,
+      "image_path": "Marselle/Teste 6.png",
+      "similarity_gpt4o_mini": 80.34822082519531,
+      "similarity_gemini": 77.65036010742188,
+      "baseline_time": 13.947654008865356,
+      "gpt4o_mini_time": 6.089968204498291,
+      "gemini_time": 3.353071689605713
+    },
+    {
+      "test_number": 153,
+      "image_path": "Marselle/Teste 7.jpg",
+      "similarity_gpt4o_mini": 92.41852569580078,
+      "similarity_gemini": 91.2393569946289,
+      "baseline_time": 8.682415008544922,
+      "gpt4o_mini_time": 4.296103000640869,
+      "gemini_time": 3.5183589458465576
+    },
+    {
+      "test_number": 154,
+      "image_path": "Marselle/Teste 8.jpeg",
+      "similarity_gpt4o_mini": 85.35187530517578,
+      "similarity_gemini": 83.29385375976562,
+      "baseline_time": 6.770612001419067,
+      "gpt4o_mini_time": 5.119680166244507,
+      "gemini_time": 2.388029098510742
+    },
+    {
+      "test_number": 155,
+      "image_path": "Marselle/Teste 9.jpg",
+      "similarity_gpt4o_mini": 72.8326644897461,
+      "similarity_gemini": 75.28654479980469,
+      "baseline_time": 10.927819013595581,
+      "gpt4o_mini_time": 4.564587831497192,
+      "gemini_time": 3.455784797668457
+    },
+    {
+      "test_number": 156,
+      "image_path": "Nóbrega/Teste 1.png",
+      "similarity_gpt4o_mini": 78.33610534667969,
+      "similarity_gemini": 83.33052825927734,
+      "baseline_time": 8.568600177764893,
+      "gpt4o_mini_time": 4.418418884277344,
+      "gemini_time": 2.480207681655884
+    },
+    {
+      "test_number": 157,
+      "image_path": "Nóbrega/Teste 10.jpg",
+      "similarity_gpt4o_mini": 87.08943176269531,
+      "similarity_gemini": 86.42451477050781,
+      "baseline_time": 8.022097110748291,
+      "gpt4o_mini_time": 5.563664197921753,
+      "gemini_time": 2.236494779586792
+    },
+    {
+      "test_number": 158,
+      "image_path": "Nóbrega/Teste 11.jpg",
+      "similarity_gpt4o_mini": 92.30511474609375,
+      "similarity_gemini": 94.13449096679688,
+      "baseline_time": 9.665823936462402,
+      "gpt4o_mini_time": 5.632401943206787,
+      "gemini_time": 3.10194993019104
+    },
+    {
+      "test_number": 159,
+      "image_path": "Nóbrega/Teste 2.png",
+      "similarity_gpt4o_mini": 70.91938018798828,
+      "similarity_gemini": 79.17020416259766,
+      "baseline_time": 12.537226915359497,
+      "gpt4o_mini_time": 4.489501953125,
+      "gemini_time": 2.5028858184814453
+    },
+    {
+      "test_number": 160,
+      "image_path": "Nóbrega/Teste 3.png",
+      "similarity_gpt4o_mini": 86.00834655761719,
+      "similarity_gemini": 87.69941711425781,
+      "baseline_time": 9.459980010986328,
+      "gpt4o_mini_time": 4.10868501663208,
+      "gemini_time": 2.791524887084961
+    },
+    {
+      "test_number": 161,
+      "image_path": "Nóbrega/Teste 4.png",
+      "similarity_gpt4o_mini": 89.09666442871094,
+      "similarity_gemini": 89.30547332763672,
+      "baseline_time": 10.070931911468506,
+      "gpt4o_mini_time": 4.729458332061768,
+      "gemini_time": 2.263439178466797
+    },
+    {
+      "test_number": 162,
+      "image_path": "Nóbrega/Teste 5.jpg",
+      "similarity_gpt4o_mini": 83.9621810913086,
+      "similarity_gemini": 90.04493713378906,
+      "baseline_time": 9.062850713729858,
+      "gpt4o_mini_time": 5.530139923095703,
+      "gemini_time": 3.3627140522003174
+    },
+    {
+      "test_number": 163,
+      "image_path": "Nóbrega/Teste 6.jpg",
+      "similarity_gpt4o_mini": 74.03690338134766,
+      "similarity_gemini": 79.98529052734375,
+      "baseline_time": 8.992955207824707,
+      "gpt4o_mini_time": 4.810389041900635,
+      "gemini_time": 2.958232879638672
+    },
+    {
+      "test_number": 164,
+      "image_path": "Nóbrega/Teste 7.jpg",
+      "similarity_gpt4o_mini": 88.75501251220703,
+      "similarity_gemini": 95.1860580444336,
+      "baseline_time": 7.532570838928223,
+      "gpt4o_mini_time": 4.34806489944458,
+      "gemini_time": 3.526898145675659
+    },
+    {
+      "test_number": 165,
+      "image_path": "Nóbrega/Teste 8.jpg",
+      "similarity_gpt4o_mini": 84.3620834350586,
+      "similarity_gemini": 86.71347045898438,
+      "baseline_time": 10.23961591720581,
+      "gpt4o_mini_time": 4.026959180831909,
+      "gemini_time": 3.323192834854126
+    },
+    {
+      "test_number": 166,
+      "image_path": "Nóbrega/Teste 9.jpg",
+      "similarity_gpt4o_mini": 76.04107666015625,
+      "similarity_gemini": 78.42776489257812,
+      "baseline_time": 12.003212213516235,
+      "gpt4o_mini_time": 5.965646028518677,
+      "gemini_time": 2.968801975250244
+    }
+  ]
+}

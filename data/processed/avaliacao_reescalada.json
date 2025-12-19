@@ -1,0 +1,45 @@
+{
+  "escala": "realista",
+  "metricas_reescaladas": {
+    "similaridade_geral": {
+      "baseline": 78.40842628479004,
+      "gpt4o_mini": 78.91903305053711,
+      "gemini": 79.85060501098633
+    },
+    "diagnostico_direto": {
+      "baseline": 58.7264673311185,
+      "gpt4o_mini": 48.770764119601324,
+      "gemini": 56.01882613510519
+    },
+    "diagnostico_semantico": {
+      "baseline": 70.02050328393315,
+      "gpt4o_mini": 68.40974150008934,
+      "gemini": 70.85353121941172
+    },
+    "tipo_imagem": {
+      "baseline": 64.29017721220505,
+      "gpt4o_mini": 56.47611586992131,
+      "gemini": 59.2999307942945
+    },
+    "achados": {
+      "baseline": 69.01871490478516,
+      "gpt4o_mini": 70.01993560791016,
+      "gemini": 72.1386947631836
+    },
+    "score_final": {
+      "baseline": 56.086227416992195,
+      "gpt4o_mini": 53.55258941650391,
+      "gemini": 56.23641967773438
+    }
+  },
+  "score_final": {
+    "baseline": 67.86476172826946,
+    "gpt4o_mini": 64.05334073670481,
+    "gemini": 67.40400417444822
+  },
+  "tempos": {
+    "baseline": 9.572377858391727,
+    "gpt4o_mini": 5.524491605988468,
+    "gemini": 4.340112505188907
+  }
+}

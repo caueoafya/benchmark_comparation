@@ -1,0 +1,11 @@
+# Cache
+__pycache__/
+*.pyc
+
+# Data files (too large for git)
+*.rar
+data/raw/BenchMarks_modelo.rar
+
+# Temporary files
+~$*
+*.tmp

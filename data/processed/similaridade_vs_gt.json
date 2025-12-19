@@ -1,0 +1,1126 @@
+{
+  "total_testes": 138,
+  "estatisticas": {
+    "baseline": {
+      "media": 52.17109764723674,
+      "min": 9.645078331232071,
+      "max": 86.46994829177856
+    },
+    "gpt4o_mini": {
+      "media": 51.53803020931672,
+      "min": 12.02297955751419,
+      "max": 80.85223436355591
+    },
+    "gemini": {
+      "media": 53.548183626886726,
+      "min": 12.607243657112122,
+      "max": 81.61855936050415
+    }
+  },
+  "resultados": [
+    {
+      "pasta": "Alléxya",
+      "teste": 1,
+      "gt": "Descolamento de Retina",
+      "sim_baseline": 0.8646994829177856,
+      "sim_gpt4o": 0.38263463973999023,
+      "sim_gemini": 0.8161855936050415
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 2,
+      "gt": "Hiposfagma",
+      "sim_baseline": 0.67584627866745,
+      "sim_gpt4o": 0.5879977345466614,
+      "sim_gemini": 0.6347297430038452
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 3,
+      "gt": "Ptose",
+      "sim_baseline": 0.37641316652297974,
+      "sim_gpt4o": 0.4530814588069916,
+      "sim_gemini": 0.3666079044342041
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 4,
+      "gt": "Síndrome do Olho Seco",
+      "sim_baseline": 0.39266958832740784,
+      "sim_gpt4o": 0.450126051902771,
+      "sim_gemini": 0.5275352001190186
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 5,
+      "gt": "Subluxação de LIO",
+      "sim_baseline": 0.5310788154602051,
+      "sim_gpt4o": 0.5252969861030579,
+      "sim_gemini": 0.5334572792053223
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 6,
+      "gt": "Toxidade Corneana",
+      "sim_baseline": 0.5356242060661316,
+      "sim_gpt4o": 0.4575966000556946,
+      "sim_gemini": 0.5462551116943359
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 7,
+      "gt": "Tumor Conjuntival",
+      "sim_baseline": 0.5317802429199219,
+      "sim_gpt4o": 0.555234968662262,
+      "sim_gemini": 0.5783720016479492
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 8,
+      "gt": "Sinéquia Posterior",
+      "sim_baseline": 0.5898186564445496,
+      "sim_gpt4o": 0.5517427325248718,
+      "sim_gemini": 0.6333128213882446
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 9,
+      "gt": "Neovascularização Corneana",
+      "sim_baseline": 0.7431222200393677,
+      "sim_gpt4o": 0.6388282775878906,
+      "sim_gemini": 0.572795033454895
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 10,
+      "gt": "Lente Intraocular Deslocada",
+      "sim_baseline": 0.554100513458252,
+      "sim_gpt4o": 0.5955045819282532,
+      "sim_gemini": 0.48409393429756165
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 11,
+      "gt": "Exame de Campo Visual",
+      "sim_baseline": 0.6275163888931274,
+      "sim_gpt4o": 0.619382917881012,
+      "sim_gemini": 0.5741370916366577
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 12,
+      "gt": "Exame de Retinografia Colorida Panoramica",
+      "sim_baseline": 0.8492962121963501,
+      "sim_gpt4o": 0.8085223436355591,
+      "sim_gemini": 0.7487916350364685
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 13,
+      "gt": "Exame de OCT de mácula",
+      "sim_baseline": 0.7372454404830933,
+      "sim_gpt4o": 0.6171029210090637,
+      "sim_gemini": 0.690563440322876
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 14,
+      "gt": "Uveíte",
+      "sim_baseline": 0.6864889860153198,
+      "sim_gpt4o": 0.7485586404800415,
+      "sim_gemini": 0.7214677929878235
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 15,
+      "gt": "Triquiase",
+      "sim_baseline": 0.6348897218704224,
+      "sim_gpt4o": 0.6356428265571594,
+      "sim_gemini": 0.6716880202293396
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 16,
+      "gt": "Carcinoma Espinocelular",
+      "sim_baseline": 0.6951431035995483,
+      "sim_gpt4o": 0.5833810567855835,
+      "sim_gemini": 0.5550816059112549
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 17,
+      "gt": "Halo de Siderose na Córnea",
+      "sim_baseline": 0.5620112419128418,
+      "sim_gpt4o": 0.49658846855163574,
+      "sim_gemini": 0.5514930486679077
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 18,
+      "gt": "Lesão em conjuntiva do tipo \"salmão patch\"",
+      "sim_baseline": 0.6329873204231262,
+      "sim_gpt4o": 0.601749062538147,
+      "sim_gemini": 0.5437336564064026
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 19,
+      "gt": "Catarata Subcapsular posterior",
+      "sim_baseline": 0.45282691717147827,
+      "sim_gpt4o": 0.4623304307460785,
+      "sim_gemini": 0.4916371703147888
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 1,
+      "gt": "AVE Hemorrágico",
+      "sim_baseline": 0.38212886452674866,
+      "sim_gpt4o": 0.44135040044784546,
+      "sim_gemini": 0.48790743947029114
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 2,
+      "gt": "AVE hemorrágico",
+      "sim_baseline": 0.40955471992492676,
+      "sim_gpt4o": 0.4815719425678253,
+      "sim_gemini": 0.46047836542129517
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 3,
+      "gt": "Cálculo Renal",
+      "sim_baseline": 0.36673417687416077,
+      "sim_gpt4o": 0.37135082483291626,
+      "sim_gemini": 0.4466511011123657
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 4,
+      "gt": "Mastite não puerperal",
+      "sim_baseline": 0.38365310430526733,
+      "sim_gpt4o": 0.5375279784202576,
+      "sim_gemini": 0.27970823645591736
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 5,
+      "gt": "Aranha-marrom",
+      "sim_baseline": 0.48608043789863586,
+      "sim_gpt4o": 0.5791908502578735,
+      "sim_gemini": 0.46268925070762634
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 6,
+      "gt": "Picada de Artrópode Não Identificado",
+      "sim_baseline": 0.5527870655059814,
+      "sim_gpt4o": 0.38597577810287476,
+      "sim_gemini": 0.4668651819229126
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 7,
+      "gt": "Profilaxia de Úlcera por Pressão",
+      "sim_baseline": 0.5817603468894958,
+      "sim_gpt4o": 0.45159658789634705,
+      "sim_gemini": 0.5646268129348755
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 8,
+      "gt": "Doença Hemorroidária",
+      "sim_baseline": 0.3523135185241699,
+      "sim_gpt4o": 0.4055227041244507,
+      "sim_gemini": 0.5577410459518433
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 9,
+      "gt": "Abscesso Peritonsilar",
+      "sim_baseline": 0.40938183665275574,
+      "sim_gpt4o": 0.49793797731399536,
+      "sim_gemini": 0.5026126503944397
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 10,
+      "gt": "Monilíase",
+      "sim_baseline": 0.6356847286224365,
+      "sim_gpt4o": 0.6579358577728271,
+      "sim_gemini": 0.636249840259552
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 1,
+      "gt": "O medicamento prescrito nesta receita pode ser enc",
+      "sim_baseline": 0.6039587259292603,
+      "sim_gpt4o": 0.7064014077186584,
+      "sim_gemini": 0.5342651009559631
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 2,
+      "gt": "Faça um resumo desse laudo pra mim, com foco nas alterações encontradas",
+      "sim_baseline": 0.27732837200164795,
+      "sim_gpt4o": 0.1202297955751419,
+      "sim_gemini": 0.21702370047569275
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 3,
+      "gt": "Faça a transcrição completa dsse laudo para eu col",
+      "sim_baseline": 0.2832416296005249,
+      "sim_gpt4o": 0.2701062262058258,
+      "sim_gemini": 0.41550540924072266
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 4,
+      "gt": "Transcreva esse pedido de exames, retirando a dosagem de t4 livre",
+      "sim_baseline": 0.592507541179657,
+      "sim_gpt4o": 0.47971993684768677,
+      "sim_gemini": 0.5959593653678894
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 5,
+      "gt": "A medicação está correta para um caso de síndrome ",
+      "sim_baseline": 0.516987144947052,
+      "sim_gpt4o": 0.45648327469825745,
+      "sim_gemini": 0.5809645056724548
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 6,
+      "gt": "Trabalho em uma unidade básica de saúde do SUS. Qu",
+      "sim_baseline": 0.29680508375167847,
+      "sim_gpt4o": 0.15803039073944092,
+      "sim_gemini": 0.28211021423339844
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 7,
+      "gt": "Vou comunicar esse resultado de exame para o próxi",
+      "sim_baseline": 0.2882935404777527,
+      "sim_gpt4o": 0.24072319269180298,
+      "sim_gemini": 0.2633073925971985
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 9,
+      "gt": "Recebi esse encaminhamento. Quais] condutas inicia",
+      "sim_baseline": 0.3909434974193573,
+      "sim_gpt4o": 0.4198576807975769,
+      "sim_gemini": 0.5438946485519409
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 10,
+      "gt": "Baseado nesse encaminhamento, monte um laudo médic",
+      "sim_baseline": 0.604374885559082,
+      "sim_gpt4o": 0.5174167156219482,
+      "sim_gemini": 0.4951122999191284
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 11,
+      "gt": "Faça dois pedidos de exame a separados (MIE e MID)",
+      "sim_baseline": 0.4700287878513336,
+      "sim_gpt4o": 0.33005157113075256,
+      "sim_gemini": 0.4623343348503113
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 12,
+      "gt": "Me ajude com a prescrição de nitrato para esse paciente",
+      "sim_baseline": 0.26111313700675964,
+      "sim_gpt4o": 0.37168675661087036,
+      "sim_gemini": 0.3866218328475952
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 13,
+      "gt": "A paciente desse exame encontra-se assintomática. ",
+      "sim_baseline": 0.30223697423934937,
+      "sim_gpt4o": 0.25861892104148865,
+      "sim_gemini": 0.29085028171539307
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 15,
+      "gt": "Transcreva esse pedido de exame, pfv",
+      "sim_baseline": 0.437267541885376,
+      "sim_gpt4o": 0.1630115807056427,
+      "sim_gemini": 0.3856205344200134
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 20,
+      "gt": "Não entendi a letra do que está escrito. Poderia m",
+      "sim_baseline": 0.3649139404296875,
+      "sim_gpt4o": 0.28571051359176636,
+      "sim_gemini": 0.3768482804298401
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 1,
+      "gt": "Cistos Vulvares",
+      "sim_baseline": 0.6461683511734009,
+      "sim_gpt4o": 0.703153133392334,
+      "sim_gemini": 0.7234393954277039
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 2,
+      "gt": "Herpes Genital",
+      "sim_baseline": 0.6169307231903076,
+      "sim_gpt4o": 0.6080400347709656,
+      "sim_gemini": 0.5537941455841064
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 3,
+      "gt": "Pólipo Endometrial",
+      "sim_baseline": 0.6063706874847412,
+      "sim_gpt4o": 0.5003093481063843,
+      "sim_gemini": 0.5067093968391418
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 4,
+      "gt": "Vaginose Bacteriana",
+      "sim_baseline": 0.4194871783256531,
+      "sim_gpt4o": 0.43059465289115906,
+      "sim_gemini": 0.5644018650054932
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 5,
+      "gt": "Cisto de Naboth",
+      "sim_baseline": 0.5551394820213318,
+      "sim_gpt4o": 0.5210157632827759,
+      "sim_gemini": 0.5307296514511108
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 6,
+      "gt": "Úlceras Genitais Infecciosas",
+      "sim_baseline": 0.7143451571464539,
+      "sim_gpt4o": 0.7264440059661865,
+      "sim_gemini": 0.7064157724380493
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 7,
+      "gt": "Tumor Vulvar Pequeno – Condiloma Acuminado",
+      "sim_baseline": 0.20410387217998505,
+      "sim_gpt4o": 0.6567097306251526,
+      "sim_gemini": 0.6122068166732788
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 8,
+      "gt": "Eczema",
+      "sim_baseline": 0.7320610880851746,
+      "sim_gpt4o": 0.6181544065475464,
+      "sim_gemini": 0.6795822381973267
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 9,
+      "gt": "Nódulo",
+      "sim_baseline": 0.4913790225982666,
+      "sim_gpt4o": 0.49923619627952576,
+      "sim_gemini": 0.4029303193092346
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 10,
+      "gt": "Endometriose",
+      "sim_baseline": 0.5446645021438599,
+      "sim_gpt4o": 0.4513309597969055,
+      "sim_gemini": 0.40314334630966187
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 11,
+      "gt": "Herpes genital",
+      "sim_baseline": 0.523012638092041,
+      "sim_gpt4o": 0.5782464742660522,
+      "sim_gemini": 0.579149067401886
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 12,
+      "gt": "Infecção fúngica",
+      "sim_baseline": 0.21316313743591309,
+      "sim_gpt4o": 0.3643394708633423,
+      "sim_gemini": 0.426932156085968
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 13,
+      "gt": "lesão de baixo grau vulvar",
+      "sim_baseline": 0.3109431862831116,
+      "sim_gpt4o": 0.4952612519264221,
+      "sim_gemini": 0.6833635568618774
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 14,
+      "gt": "líquen escleroso com infecção fúngica",
+      "sim_baseline": 0.2282731831073761,
+      "sim_gpt4o": 0.5242744088172913,
+      "sim_gemini": 0.5150541067123413
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 15,
+      "gt": "candidíase vaginal",
+      "sim_baseline": 0.09645078331232071,
+      "sim_gpt4o": 0.2604144215583801,
+      "sim_gemini": 0.2083316445350647
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 1,
+      "gt": "Escabiose",
+      "sim_baseline": 0.372759610414505,
+      "sim_gpt4o": 0.353431761264801,
+      "sim_gemini": 0.36087489128112793
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 2,
+      "gt": "Mastocitose Cutânea",
+      "sim_baseline": 0.503777265548706,
+      "sim_gpt4o": 0.5020279884338379,
+      "sim_gemini": 0.47427570819854736
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 3,
+      "gt": "Raquitismo",
+      "sim_baseline": 0.699182391166687,
+      "sim_gpt4o": 0.6037338972091675,
+      "sim_gemini": 0.5772542357444763
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 4,
+      "gt": "Cisto dermóide infantil",
+      "sim_baseline": 0.5575264096260071,
+      "sim_gpt4o": 0.49863511323928833,
+      "sim_gemini": 0.5883439779281616
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 5,
+      "gt": "Monilíase",
+      "sim_baseline": 0.149711012840271,
+      "sim_gpt4o": 0.148872509598732,
+      "sim_gemini": 0.12607243657112122
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 6,
+      "gt": "Exantema Súbito",
+      "sim_baseline": 0.4566175937652588,
+      "sim_gpt4o": 0.5222694873809814,
+      "sim_gemini": 0.43171143531799316
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 7,
+      "gt": "Observe essa lesão e me dê uma lista de pelo menos 3 diagnosticos diferenciais",
+      "sim_baseline": 0.4110165238380432,
+      "sim_gpt4o": 0.4184526205062866,
+      "sim_gemini": 0.5056935548782349
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 8,
+      "gt": "A partir da imagem, me diga qual é o nome desse sinal semiológico",
+      "sim_baseline": 0.3219248652458191,
+      "sim_gpt4o": 0.44009479880332947,
+      "sim_gemini": 0.3712432384490967
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 9,
+      "gt": "Descreva a lesão e me diga qual é um possível diagnóstico para o quadro",
+      "sim_baseline": 0.4981529414653778,
+      "sim_gpt4o": 0.4522174596786499,
+      "sim_gemini": 0.4246801435947418
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 10,
+      "gt": "A partir da imagem, indique qual exame complementa",
+      "sim_baseline": 0.3442242741584778,
+      "sim_gpt4o": 0.3696328401565552,
+      "sim_gemini": 0.3494294285774231
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 11,
+      "gt": "Descreva os achados da imagem e me dê pelos menos 3 diagnósticos",
+      "sim_baseline": 0.45190784335136414,
+      "sim_gpt4o": 0.513073205947876,
+      "sim_gemini": 0.4932044744491577
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 12,
+      "gt": "Descreva a lesão e me diga qual é um possível diagnóstico para o quadro",
+      "sim_baseline": 0.4234082102775574,
+      "sim_gpt4o": 0.3402172923088074,
+      "sim_gemini": 0.3844124972820282
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 13,
+      "gt": "A partir da imagem, me descreva o diagnóstico e a etiologia do quadro",
+      "sim_baseline": 0.4881601929664612,
+      "sim_gpt4o": 0.5060701966285706,
+      "sim_gemini": 0.6109796762466431
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 15,
+      "gt": "Descreva o diagnóstico da imagem e qual exame comp",
+      "sim_baseline": 0.3731047511100769,
+      "sim_gpt4o": 0.46351584792137146,
+      "sim_gemini": 0.45876091718673706
+    },
+    {
+      "pasta": "Filipe",
+      "teste": 3,
+      "gt": "Feminno, 36 anos. Sem co-morbidades. Toma contrace",
+      "sim_baseline": 0.6637364625930786,
+      "sim_gpt4o": 0.6935012936592102,
+      "sim_gemini": 0.7036250829696655
+    },
+    {
+      "pasta": "Filipe",
+      "teste": 4,
+      "gt": "Masculino, 52 anos. Previamente hígido, sem uso de",
+      "sim_baseline": 0.3371121883392334,
+      "sim_gpt4o": 0.44019579887390137,
+      "sim_gemini": 0.4624069035053253
+    },
+    {
+      "pasta": "Filipe",
+      "teste": 5,
+      "gt": "Masculino, 63 anos. Cirrose hepática de etiologia ",
+      "sim_baseline": 0.641467809677124,
+      "sim_gpt4o": 0.6285746693611145,
+      "sim_gemini": 0.47071346640586853
+    },
+    {
+      "pasta": "Filipe",
+      "teste": 6,
+      "gt": "Pirose e regurgitação diários em mulher de 20 anos",
+      "sim_baseline": 0.4267388880252838,
+      "sim_gpt4o": 0.4761015772819519,
+      "sim_gemini": 0.5200855731964111
+    },
+    {
+      "pasta": "Filipe",
+      "teste": 7,
+      "gt": "Masculino, 50 anos. Obesidade grau II, DM2 descomp",
+      "sim_baseline": 0.5540053844451904,
+      "sim_gpt4o": 0.5517043471336365,
+      "sim_gemini": 0.6246633529663086
+    },
+    {
+      "pasta": "Filipe",
+      "teste": 8,
+      "gt": "Feminino, 47 anos. Assintomática. Sem co-morbidade",
+      "sim_baseline": 0.6626408100128174,
+      "sim_gpt4o": 0.7547853589057922,
+      "sim_gemini": 0.756951093673706
+    },
+    {
+      "pasta": "Filipe",
+      "teste": 9,
+      "gt": "Consegue identificar alguma alteração nesta imagem",
+      "sim_baseline": 0.7204383611679077,
+      "sim_gpt4o": 0.6506721377372742,
+      "sim_gemini": 0.5868228673934937
+    },
+    {
+      "pasta": "Filipe",
+      "teste": 10,
+      "gt": "Paciente admitido em PS por quadro respiratório ag",
+      "sim_baseline": 0.45007312297821045,
+      "sim_gpt4o": 0.34505337476730347,
+      "sim_gemini": 0.40516841411590576
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 1,
+      "gt": "Classificação de Schatzker",
+      "sim_baseline": 0.6387468576431274,
+      "sim_gpt4o": 0.45332974195480347,
+      "sim_gemini": 0.6242939233779907
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 2,
+      "gt": "Fibroma Não Ossificante",
+      "sim_baseline": 0.6938111782073975,
+      "sim_gpt4o": 0.5958505272865295,
+      "sim_gemini": 0.6746031641960144
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 3,
+      "gt": "Contratura de Dupuytren",
+      "sim_baseline": 0.3087339699268341,
+      "sim_gpt4o": 0.36825209856033325,
+      "sim_gemini": 0.3498077988624573
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 4,
+      "gt": "Fratura de falange",
+      "sim_baseline": 0.3502756655216217,
+      "sim_gpt4o": 0.5297284126281738,
+      "sim_gemini": 0.3764305114746094
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 5,
+      "gt": "Osteossíntese de escafóide",
+      "sim_baseline": 0.4301793873310089,
+      "sim_gpt4o": 0.5327515602111816,
+      "sim_gemini": 0.5374257564544678
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 6,
+      "gt": "Osteossíntese de escafóide",
+      "sim_baseline": 0.49729815125465393,
+      "sim_gpt4o": 0.5782656669616699,
+      "sim_gemini": 0.4356122612953186
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 7,
+      "gt": "Pseudoartrose de escafóide",
+      "sim_baseline": 0.34713152050971985,
+      "sim_gpt4o": 0.30636459589004517,
+      "sim_gemini": 0.23756271600723267
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 9,
+      "gt": "Pseudoartrose de escafóide",
+      "sim_baseline": 0.26448479294776917,
+      "sim_gpt4o": 0.38322481513023376,
+      "sim_gemini": 0.32674509286880493
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 8,
+      "gt": "fratura de falange",
+      "sim_baseline": 0.3476700782775879,
+      "sim_gpt4o": 0.2224465161561966,
+      "sim_gemini": 0.2632926106452942
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 10,
+      "gt": "osteossíntese do femur proximal esquerdo",
+      "sim_baseline": 0.640383243560791,
+      "sim_gpt4o": 0.507168710231781,
+      "sim_gemini": 0.7019299268722534
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 11,
+      "gt": "fratura de falange",
+      "sim_baseline": 0.38533562421798706,
+      "sim_gpt4o": 0.403587281703949,
+      "sim_gemini": 0.34755757451057434
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 12,
+      "gt": "Contratura de Dupuytren",
+      "sim_baseline": 0.4370390772819519,
+      "sim_gpt4o": 0.2880561649799347,
+      "sim_gemini": 0.3613351583480835
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 1,
+      "gt": "Homem, 76 anos, com demência avançada e múltiplas ",
+      "sim_baseline": 0.5752445459365845,
+      "sim_gpt4o": 0.5453002452850342,
+      "sim_gemini": 0.6107029914855957
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 1,
+      "gt": "Mulher, 85 anos, comparece ao ambulatório apresent",
+      "sim_baseline": 0.6568237543106079,
+      "sim_gpt4o": 0.6348804831504822,
+      "sim_gemini": 0.6543220281600952
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 2,
+      "gt": "Mulher, 50 anos, câncer de mama refratário a quimi",
+      "sim_baseline": 0.4963185787200928,
+      "sim_gpt4o": 0.6103605628013611,
+      "sim_gemini": 0.6292663812637329
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 3,
+      "gt": "Mulher, 70 anos, DPOC, tabagista ativa, interna em",
+      "sim_baseline": 0.6118054389953613,
+      "sim_gpt4o": 0.5654082894325256,
+      "sim_gemini": 0.4666987657546997
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 4,
+      "gt": "Mulher, 50 anos, câncer de mama refratário a quimi",
+      "sim_baseline": 0.5622357130050659,
+      "sim_gpt4o": 0.5204827785491943,
+      "sim_gemini": 0.5975477695465088
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 5,
+      "gt": "Homem, 67 anos, internado em unidade de terapia in",
+      "sim_baseline": 0.7051852941513062,
+      "sim_gpt4o": 0.6285057663917542,
+      "sim_gemini": 0.655597984790802
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 6,
+      "gt": "Homem, 75 anos, em acompanhamento de mielodisplasi",
+      "sim_baseline": 0.6394993662834167,
+      "sim_gpt4o": 0.6444649696350098,
+      "sim_gemini": 0.5703884363174438
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 7,
+      "gt": "Mulher, 30 anos, G3P2A0, 31 semanas de gestação. S",
+      "sim_baseline": 0.7256345748901367,
+      "sim_gpt4o": 0.7197134494781494,
+      "sim_gemini": 0.7163565158843994
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 7,
+      "gt": "Mulher, 30 anos, G3P2A0, 15 semanas de gestação. S",
+      "sim_baseline": 0.742111325263977,
+      "sim_gpt4o": 0.738612949848175,
+      "sim_gemini": 0.7271908521652222
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 8,
+      "gt": "Mulher, vegetariana, 30 anos, sem comorbidades pré",
+      "sim_baseline": 0.6717314124107361,
+      "sim_gpt4o": 0.7111924886703491,
+      "sim_gemini": 0.5546140670776367
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 9,
+      "gt": "Homem, 50 anos, sem comorbidades prévias e sem que",
+      "sim_baseline": 0.6607228517532349,
+      "sim_gpt4o": 0.6062979698181152,
+      "sim_gemini": 0.6685829162597656
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 10,
+      "gt": "Homem, 88 anos, apresentando queda progressiva de ",
+      "sim_baseline": 0.5474652051925659,
+      "sim_gpt4o": 0.5125218033790588,
+      "sim_gemini": 0.5773069858551025
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 12,
+      "gt": "Interpretando o laudo de ECG em anexo, quais passo",
+      "sim_baseline": 0.5844730138778687,
+      "sim_gpt4o": 0.5400569438934326,
+      "sim_gemini": 0.6492226123809814
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 13,
+      "gt": "Homem de 28 anos realizou hemograma para exame de ",
+      "sim_baseline": 0.5828550457954407,
+      "sim_gpt4o": 0.5663424134254456,
+      "sim_gemini": 0.6115543842315674
+    },
+    {
+      "pasta": "Guilherme (imagens com texto)",
+      "teste": 14,
+      "gt": "Homem de 28 anos apresenta a eletroforese de prote",
+      "sim_baseline": 0.49476510286331177,
+      "sim_gpt4o": 0.45135337114334106,
+      "sim_gemini": 0.4458060562610626
+    },
+    {
+      "pasta": "Isabela",
+      "teste": 1,
+      "gt": "Paciente com dor torácica há 3 dias, resolvida, ev",
+      "sim_baseline": 0.5554301738739014,
+      "sim_gpt4o": 0.6435832381248474,
+      "sim_gemini": 0.6574629545211792
+    },
+    {
+      "pasta": "Isabela",
+      "teste": 2,
+      "gt": "Paciente hipertenso, com dor torácica súbita de fo",
+      "sim_baseline": 0.5307865142822266,
+      "sim_gpt4o": 0.555804967880249,
+      "sim_gemini": 0.5104427337646484
+    },
+    {
+      "pasta": "Isabela",
+      "teste": 3,
+      "gt": "Paciente com dor torácica há 4 horas, irradiando p",
+      "sim_baseline": 0.6495542526245117,
+      "sim_gpt4o": 0.5717560648918152,
+      "sim_gemini": 0.5716014504432678
+    },
+    {
+      "pasta": "Isabela",
+      "teste": 4,
+      "gt": "Paciente de 25 anos com dor torácica esternal, em ",
+      "sim_baseline": 0.5913252830505371,
+      "sim_gpt4o": 0.6337292194366455,
+      "sim_gemini": 0.7044585347175598
+    },
+    {
+      "pasta": "Isabela",
+      "teste": 5,
+      "gt": "Paciente 50 anos com dor torácica ventilatório dep",
+      "sim_baseline": 0.5898761749267578,
+      "sim_gpt4o": 0.5859808325767517,
+      "sim_gemini": 0.6011509299278259
+    },
+    {
+      "pasta": "Isabela",
+      "teste": 6,
+      "gt": "Paciente com dor torácica há 1 hora. O ECG sugere ",
+      "sim_baseline": 0.5619887113571167,
+      "sim_gpt4o": 0.5730021595954895,
+      "sim_gemini": 0.5374373197555542
+    },
+    {
+      "pasta": "Isabela",
+      "teste": 7,
+      "gt": "Paciente com dispneia em repouso, sem dor torácica",
+      "sim_baseline": 0.6260480880737305,
+      "sim_gpt4o": 0.5957454442977905,
+      "sim_gemini": 0.6745557188987732
+    },
+    {
+      "pasta": "Isabela",
+      "teste": 8,
+      "gt": "Paciente com dispneia e dor torácica ventilatório ",
+      "sim_baseline": 0.5841760039329529,
+      "sim_gpt4o": 0.6500532627105713,
+      "sim_gemini": 0.6915955543518066
+    },
+    {
+      "pasta": "Isabela",
+      "teste": 9,
+      "gt": "Paciente com dispneia na emergência. Apresenta est",
+      "sim_baseline": 0.25878310203552246,
+      "sim_gpt4o": 0.3989752233028412,
+      "sim_gemini": 0.3229548931121826
+    },
+    {
+      "pasta": "Isabela",
+      "teste": 10,
+      "gt": "Paciente com dispneia e tontura há 3 dias. Hoje pi",
+      "sim_baseline": 0.4602401852607727,
+      "sim_gpt4o": 0.38307979702949524,
+      "sim_gemini": 0.40809211134910583
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 1,
+      "gt": "Amiloidose cutânea",
+      "sim_baseline": 0.6410521268844604,
+      "sim_gpt4o": 0.6630443334579468,
+      "sim_gemini": 0.5543833374977112
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 2,
+      "gt": "Angioma Rubi",
+      "sim_baseline": 0.6206346154212952,
+      "sim_gpt4o": 0.6250559091567993,
+      "sim_gemini": 0.7428938746452332
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 3,
+      "gt": "Carcinoma Basocelular",
+      "sim_baseline": 0.7040114402770996,
+      "sim_gpt4o": 0.7253116965293884,
+      "sim_gemini": 0.6512118577957153
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 4,
+      "gt": "Cisto Mucoso Digital",
+      "sim_baseline": 0.5424831509590149,
+      "sim_gpt4o": 0.5547317266464233,
+      "sim_gemini": 0.5052148103713989
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 5,
+      "gt": "Epidermodisplasia Verruciforme",
+      "sim_baseline": 0.5368572473526001,
+      "sim_gpt4o": 0.6065790057182312,
+      "sim_gemini": 0.5368569493293762
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 6,
+      "gt": "Esporotricose",
+      "sim_baseline": 0.3313421308994293,
+      "sim_gpt4o": 0.35649335384368896,
+      "sim_gemini": 0.4365836977958679
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 7,
+      "gt": "Poroqueratose",
+      "sim_baseline": 0.6728082299232483,
+      "sim_gpt4o": 0.7175962924957275,
+      "sim_gemini": 0.6552442312240601
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 8,
+      "gt": "Vitiligo",
+      "sim_baseline": 0.6075820922851562,
+      "sim_gpt4o": 0.6052577495574951,
+      "sim_gemini": 0.6068340539932251
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 9,
+      "gt": "Xantoma",
+      "sim_baseline": 0.5803340077400208,
+      "sim_gpt4o": 0.5077559351921082,
+      "sim_gemini": 0.5829966068267822
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 10,
+      "gt": "Síndrome de Sneddon",
+      "sim_baseline": 0.46396178007125854,
+      "sim_gpt4o": 0.38581475615501404,
+      "sim_gemini": 0.5948944687843323
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 1,
+      "gt": "AVE Hemorrágico",
+      "sim_baseline": 0.6649782657623291,
+      "sim_gpt4o": 0.6973656415939331,
+      "sim_gemini": 0.7333872318267822
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 2,
+      "gt": "Hidrocefalia Obstrutiva (Infantil)",
+      "sim_baseline": 0.5311540365219116,
+      "sim_gpt4o": 0.5508745312690735,
+      "sim_gemini": 0.6361969709396362
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 3,
+      "gt": "Ressonância magnética do Glioblastoma",
+      "sim_baseline": 0.5808126926422119,
+      "sim_gpt4o": 0.6011752486228943,
+      "sim_gemini": 0.6202425956726074
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 4,
+      "gt": "Tuberculose (Tuberculoma)",
+      "sim_baseline": 0.5851465463638306,
+      "sim_gpt4o": 0.5602676868438721,
+      "sim_gemini": 0.5351924896240234
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 5,
+      "gt": "Solicito interpretação desta imagem de TC de crâni",
+      "sim_baseline": 0.7272158861160278,
+      "sim_gpt4o": 0.68654465675354,
+      "sim_gemini": 0.7117681503295898
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 6,
+      "gt": "Solicito avaliação desta RM axial de encéfalo. Em ",
+      "sim_baseline": 0.5161672234535217,
+      "sim_gpt4o": 0.37523674964904785,
+      "sim_gemini": 0.5408448576927185
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 7,
+      "gt": "Solicito interpretação desta RM de encéfalo com co",
+      "sim_baseline": 0.6766297817230225,
+      "sim_gpt4o": 0.573773980140686,
+      "sim_gemini": 0.677638053894043
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 8,
+      "gt": "Sou médico não especialista. Poderia revisar esta ",
+      "sim_baseline": 0.5650897026062012,
+      "sim_gpt4o": 0.6161917448043823,
+      "sim_gemini": 0.6967914700508118
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 9,
+      "gt": "Solicito interpretação desta gasometria arterial, ",
+      "sim_baseline": 0.8605338335037231,
+      "sim_gpt4o": 0.6878945231437683,
+      "sim_gemini": 0.7283343076705933
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 10,
+      "gt": "Estou avaliando esta RM axial de encéfalo com cont",
+      "sim_baseline": 0.5668507814407349,
+      "sim_gpt4o": 0.5789956450462341,
+      "sim_gemini": 0.6384656429290771
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 11,
+      "gt": "Solicito interpretação desta cultura de urina com ",
+      "sim_baseline": 0.6804819107055664,
+      "sim_gpt4o": 0.720620334148407,
+      "sim_gemini": 0.7375675439834595
+    }
+  ]
+}

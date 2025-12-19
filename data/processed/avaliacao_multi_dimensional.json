@@ -1,0 +1,2548 @@
+{
+  "total_testes": 86,
+  "pesos": {
+    "similaridade_geral": 0.2,
+    "diagnostico_direto": 0.25,
+    "diagnostico_semantico": 0.25,
+    "tipo_imagem": 0.15,
+    "achados": 0.15
+  },
+  "acuracia_final": {
+    "baseline": 38.043113708496094,
+    "gpt4o_mini": 36.77629470825195,
+    "gemini": 38.11820983886719
+  },
+  "tempos": {
+    "baseline": 9.572377858391727,
+    "gpt4o_mini": 5.524491605988468,
+    "gemini": 4.340112505188907
+  },
+  "metricas_detalhadas": {
+    "similaridade_geral": {
+      "baseline": 50.60561752319336,
+      "gpt4o_mini": 50.946022033691406,
+      "gemini": 51.56707000732422
+    },
+    "diagnostico_direto": {
+      "baseline": 14.681616832779625,
+      "gpt4o_mini": 12.192691029900331,
+      "gemini": 14.004706533776298
+    },
+    "diagnostico_semantico": {
+      "baseline": 45.01366885595544,
+      "gpt4o_mini": 44.20487075004467,
+      "gemini": 45.569020812941154
+    },
+    "tipo_imagem": {
+      "baseline": 42.14508860610252,
+      "gpt4o_mini": 38.23805793496065,
+      "gemini": 39.64996539714725
+    },
+    "achados": {
+      "baseline": 44.50935745239258,
+      "gpt4o_mini": 45.01329040527344,
+      "gemini": 46.42579650878906
+    },
+    "score_final": {
+      "baseline": 38.043113708496094,
+      "gpt4o_mini": 36.77629470825195,
+      "gemini": 38.11820983886719
+    }
+  },
+  "resultados_por_teste": [
+    {
+      "pasta": "Alléxya",
+      "teste": 1,
+      "gt_diagnostico": "Descolamento de Retina",
+      "baseline": {
+        "similaridade_geral": 0.8625147938728333,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.6516532897949219,
+        "tipo_imagem": 1.0,
+        "achados": 0.6346213221549988,
+        "score_final": 0.8306095004081726
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.4389059841632843,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.34439617395401,
+        "tipo_imagem": 0.0,
+        "achados": 0.20522691309452057,
+        "score_final": 0.20466428995132446
+      },
+      "gemini": {
+        "similaridade_geral": 0.8153069019317627,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.6920580863952637,
+        "tipo_imagem": 1.0,
+        "achados": 0.45325982570648193,
+        "score_final": 0.8040648698806763
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 2,
+      "gt_diagnostico": "Hiposfagma",
+      "baseline": {
+        "similaridade_geral": 0.6861216425895691,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.435322642326355,
+        "tipo_imagem": 0.1308322250843048,
+        "achados": 0.7103086709976196,
+        "score_final": 0.37222614884376526
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.59135901927948,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.39688628911972046,
+        "tipo_imagem": 0.30658212304115295,
+        "achados": 0.6644675135612488,
+        "score_final": 0.36315083503723145
+      },
+      "gemini": {
+        "similaridade_geral": 0.6326006650924683,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.37385159730911255,
+        "tipo_imagem": 0.275431752204895,
+        "achados": 0.5889083743095398,
+        "score_final": 0.3496340811252594
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 3,
+      "gt_diagnostico": "Ptose",
+      "baseline": {
+        "similaridade_geral": 0.3845122456550598,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2680952548980713,
+        "tipo_imagem": 0.45006269216537476,
+        "achados": 0.287906289100647,
+        "score_final": 0.25462162494659424
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.4475167989730835,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2170887589454651,
+        "tipo_imagem": 0.4109290838241577,
+        "achados": 0.4072812795639038,
+        "score_final": 0.2665071189403534
+      },
+      "gemini": {
+        "similaridade_geral": 0.35946717858314514,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.1855739802122116,
+        "tipo_imagem": 0.3908020257949829,
+        "achados": 0.31960004568099976,
+        "score_final": 0.22484725713729858
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 4,
+      "gt_diagnostico": "Síndrome do Olho Seco",
+      "baseline": {
+        "similaridade_geral": 0.39287951588630676,
+        "diagnostico_direto": 0.3333333333333333,
+        "diagnostico_semantico": 0.5210903286933899,
+        "tipo_imagem": 0.19442665576934814,
+        "achados": 0.3946753740310669,
+        "score_final": 0.38054710626602173
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.41799676418304443,
+        "diagnostico_direto": 0.3333333333333333,
+        "diagnostico_semantico": 0.4393160939216614,
+        "tipo_imagem": 0.23096181452274323,
+        "achados": 0.4568418860435486,
+        "score_final": 0.3799322843551636
+      },
+      "gemini": {
+        "similaridade_geral": 0.494918555021286,
+        "diagnostico_direto": 0.3333333333333333,
+        "diagnostico_semantico": 0.561704158782959,
+        "tipo_imagem": 0.3092789351940155,
+        "achados": 0.5078109502792358,
+        "score_final": 0.44530656933784485
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 5,
+      "gt_diagnostico": "Subluxação de LIO",
+      "baseline": {
+        "similaridade_geral": 0.5249432325363159,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.49248790740966797,
+        "tipo_imagem": 0.5622710585594177,
+        "achados": 0.5297936797142029,
+        "score_final": 0.3919203579425812
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5127443671226501,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4541953504085541,
+        "tipo_imagem": 0.49248433113098145,
+        "achados": 0.562259316444397,
+        "score_final": 0.3743092715740204
+      },
+      "gemini": {
+        "similaridade_geral": 0.5357170104980469,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5907325148582458,
+        "tipo_imagem": 0.4268648624420166,
+        "achados": 0.5188042521476746,
+        "score_final": 0.3966768980026245
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 6,
+      "gt_diagnostico": "Toxidade Corneana",
+      "baseline": {
+        "similaridade_geral": 0.5363356471061707,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.4709709882736206,
+        "tipo_imagem": 0.2758340835571289,
+        "achados": 0.4621802866458893,
+        "score_final": 0.4607120752334595
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.44807958602905273,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.3354929983615875,
+        "tipo_imagem": 0.2466181367635727,
+        "achados": 0.39763811230659485,
+        "score_final": 0.3951275944709778
+      },
+      "gemini": {
+        "similaridade_geral": 0.5288233757019043,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.4367825388908386,
+        "tipo_imagem": 0.2633959650993347,
+        "achados": 0.6027801036834717,
+        "score_final": 0.46988674998283386
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 7,
+      "gt_diagnostico": "Tumor Conjuntival",
+      "baseline": {
+        "similaridade_geral": 0.554097056388855,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.5556899309158325,
+        "tipo_imagem": 0.3498009145259857,
+        "achados": 0.5581473708152771,
+        "score_final": 0.5109341740608215
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.544921875,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.38380783796310425,
+        "tipo_imagem": 0.2974628806114197,
+        "achados": 0.4129576086997986,
+        "score_final": 0.3114994168281555
+      },
+      "gemini": {
+        "similaridade_geral": 0.6024564504623413,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.5126471519470215,
+        "tipo_imagem": 0.29496800899505615,
+        "achados": 0.4865614175796509,
+        "score_final": 0.4908825159072876
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 8,
+      "gt_diagnostico": "Sinéquia Posterior",
+      "baseline": {
+        "similaridade_geral": 0.5948495864868164,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3382689952850342,
+        "tipo_imagem": 0.4982107877731323,
+        "achados": 0.3306656777858734,
+        "score_final": 0.32786864042282104
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5651294589042664,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.33434969186782837,
+        "tipo_imagem": 0.5700106620788574,
+        "achados": 0.2707938253879547,
+        "score_final": 0.322733998298645
+      },
+      "gemini": {
+        "similaridade_geral": 0.6337767839431763,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4617786705493927,
+        "tipo_imagem": 0.41466039419174194,
+        "achados": 0.5689600706100464,
+        "score_final": 0.3897430896759033
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 9,
+      "gt_diagnostico": "Neovascularização Corneana",
+      "baseline": {
+        "similaridade_geral": 0.7340297698974609,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.6325557231903076,
+        "tipo_imagem": 0.0,
+        "achados": 0.6982897520065308,
+        "score_final": 0.5346883535385132
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6563354134559631,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5819140672683716,
+        "tipo_imagem": 0.0,
+        "achados": 0.6408994197845459,
+        "score_final": 0.3728805184364319
+      },
+      "gemini": {
+        "similaridade_geral": 0.5577846765518188,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.6075659990310669,
+        "tipo_imagem": 0.0,
+        "achados": 0.6469566226005554,
+        "score_final": 0.36049193143844604
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 10,
+      "gt_diagnostico": "Lente Intraocular Deslocada",
+      "baseline": {
+        "similaridade_geral": 0.5518709421157837,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5637314319610596,
+        "tipo_imagem": 0.3770206868648529,
+        "achados": 0.5979112386703491,
+        "score_final": 0.39754682779312134
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5856558084487915,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4905083477497101,
+        "tipo_imagem": 0.38404759764671326,
+        "achados": 0.5662522315979004,
+        "score_final": 0.38230323791503906
+      },
+      "gemini": {
+        "similaridade_geral": 0.46956348419189453,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4771275520324707,
+        "tipo_imagem": 0.2114754170179367,
+        "achados": 0.30090993642807007,
+        "score_final": 0.2900523841381073
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 11,
+      "gt_diagnostico": "Exame de Campo Visual",
+      "baseline": {
+        "similaridade_geral": 0.619763195514679,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.6588083505630493,
+        "tipo_imagem": 0.5,
+        "achados": 0.6094879508018494,
+        "score_final": 0.7050778865814209
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6340265274047852,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.7716169357299805,
+        "tipo_imagem": 0.5,
+        "achados": 0.6098198890686035,
+        "score_final": 0.7361825108528137
+      },
+      "gemini": {
+        "similaridade_geral": 0.5741370916366577,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.6733618974685669,
+        "tipo_imagem": 0.5,
+        "achados": 0.623620867729187,
+        "score_final": 0.7017109990119934
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 12,
+      "gt_diagnostico": "Exame de Retinografia Colorida Panoramica",
+      "baseline": {
+        "similaridade_geral": 0.8444598317146301,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.7754501700401306,
+        "tipo_imagem": 0.0,
+        "achados": 0.6674448251724243,
+        "score_final": 0.587871253490448
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.8260324001312256,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.7105147838592529,
+        "tipo_imagem": 0.0,
+        "achados": 0.6053581237792969,
+        "score_final": 0.5586389303207397
+      },
+      "gemini": {
+        "similaridade_geral": 0.7250480055809021,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.6145021915435791,
+        "tipo_imagem": 0.0,
+        "achados": 0.441996693611145,
+        "score_final": 0.36493465304374695
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 13,
+      "gt_diagnostico": "Exame de OCT de mácula",
+      "baseline": {
+        "similaridade_geral": 0.7435601949691772,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.4031003415584564,
+        "tipo_imagem": 0.0,
+        "achados": 0.7185449004173279,
+        "score_final": 0.4822688698768616
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6030511260032654,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4159870147705078,
+        "tipo_imagem": 0.0,
+        "achados": 0.3431738018989563,
+        "score_final": 0.2760830521583557
+      },
+      "gemini": {
+        "similaridade_geral": 0.6789939403533936,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.6674689054489136,
+        "tipo_imagem": 0.0,
+        "achados": 0.6026375889778137,
+        "score_final": 0.6430616974830627
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 14,
+      "gt_diagnostico": "Uveíte",
+      "baseline": {
+        "similaridade_geral": 0.6643060445785522,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5044578313827515,
+        "tipo_imagem": 0.4930686950683594,
+        "achados": 0.6102769374847412,
+        "score_final": 0.4244775176048279
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.7656397819519043,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4106578826904297,
+        "tipo_imagem": 0.3459993004798889,
+        "achados": 0.7180495262145996,
+        "score_final": 0.41539978981018066
+      },
+      "gemini": {
+        "similaridade_geral": 0.7373778223991394,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.39342939853668213,
+        "tipo_imagem": 0.3675667345523834,
+        "achados": 0.762374758720398,
+        "score_final": 0.4153241515159607
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 15,
+      "gt_diagnostico": "Triquiase",
+      "baseline": {
+        "similaridade_geral": 0.6192458868026733,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.34291380643844604,
+        "tipo_imagem": 0.5321638584136963,
+        "achados": 0.6505932807922363,
+        "score_final": 0.3869911730289459
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6340268850326538,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.26460790634155273,
+        "tipo_imagem": 0.40304693579673767,
+        "achados": 0.6333105564117432,
+        "score_final": 0.348410964012146
+      },
+      "gemini": {
+        "similaridade_geral": 0.6628589034080505,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2900138795375824,
+        "tipo_imagem": 0.37089401483535767,
+        "achados": 0.5418574810028076,
+        "score_final": 0.3419879972934723
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 16,
+      "gt_diagnostico": "Carcinoma Espinocelular",
+      "baseline": {
+        "similaridade_geral": 0.6250667572021484,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4210066795349121,
+        "tipo_imagem": 0.508528470993042,
+        "achados": 0.6513385772705078,
+        "score_final": 0.4042450785636902
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6095224618911743,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5650513768196106,
+        "tipo_imagem": 0.48724448680877686,
+        "achados": 0.7545198202133179,
+        "score_final": 0.44943198561668396
+      },
+      "gemini": {
+        "similaridade_geral": 0.5637478828430176,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.35603421926498413,
+        "tipo_imagem": 0.35777339339256287,
+        "achados": 0.5072475075721741,
+        "score_final": 0.3315112590789795
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 17,
+      "gt_diagnostico": "Halo de Siderose na Córnea",
+      "baseline": {
+        "similaridade_geral": 0.551978349685669,
+        "diagnostico_direto": 0.3333333333333333,
+        "diagnostico_semantico": 0.5995814800262451,
+        "tipo_imagem": 0.4866662919521332,
+        "achados": 0.5209377408027649,
+        "score_final": 0.4947649836540222
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5086737871170044,
+        "diagnostico_direto": 0.3333333333333333,
+        "diagnostico_semantico": 0.5868511199951172,
+        "tipo_imagem": 0.3309094309806824,
+        "achados": 0.6038442254066467,
+        "score_final": 0.47199392318725586
+      },
+      "gemini": {
+        "similaridade_geral": 0.5490150451660156,
+        "diagnostico_direto": 0.3333333333333333,
+        "diagnostico_semantico": 0.723106861114502,
+        "tipo_imagem": 0.4068571925163269,
+        "achados": 0.6133394241333008,
+        "score_final": 0.5269425511360168
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 18,
+      "gt_diagnostico": "Lesão em conjuntiva do tipo \"salmão patch\"",
+      "baseline": {
+        "similaridade_geral": 0.6322143077850342,
+        "diagnostico_direto": 0.4,
+        "diagnostico_semantico": 0.6646655797958374,
+        "tipo_imagem": 0.0,
+        "achados": 0.5875545740127563,
+        "score_final": 0.4807424545288086
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6070923805236816,
+        "diagnostico_direto": 0.2,
+        "diagnostico_semantico": 0.6261910200119019,
+        "tipo_imagem": 0.0,
+        "achados": 0.5157826542854309,
+        "score_final": 0.40533360838890076
+      },
+      "gemini": {
+        "similaridade_geral": 0.5288059711456299,
+        "diagnostico_direto": 0.2,
+        "diagnostico_semantico": 0.6204068660736084,
+        "tipo_imagem": 0.0,
+        "achados": 0.5120886564254761,
+        "score_final": 0.3876762092113495
+      }
+    },
+    {
+      "pasta": "Alléxya",
+      "teste": 19,
+      "gt_diagnostico": "Catarata Subcapsular posterior",
+      "baseline": {
+        "similaridade_geral": 0.4698408246040344,
+        "diagnostico_direto": 0.3333333333333333,
+        "diagnostico_semantico": 0.4496868848800659,
+        "tipo_imagem": 0.3025341033935547,
+        "achados": 0.3757587671279907,
+        "score_final": 0.3914671540260315
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.45473045110702515,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3760223984718323,
+        "tipo_imagem": 0.46976810693740845,
+        "achados": 0.27251678705215454,
+        "score_final": 0.2962944507598877
+      },
+      "gemini": {
+        "similaridade_geral": 0.48273366689682007,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4130062460899353,
+        "tipo_imagem": 0.5166276693344116,
+        "achados": 0.43082183599472046,
+        "score_final": 0.34191572666168213
+      }
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 1,
+      "gt_diagnostico": "AVE Hemorrágico",
+      "baseline": {
+        "similaridade_geral": 0.4925423264503479,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.43602028489112854,
+        "tipo_imagem": 0.17918795347213745,
+        "achados": 0.17938701808452606,
+        "score_final": 0.2612997889518738
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5306652784347534,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.6056867241859436,
+        "tipo_imagem": 0.3414113223552704,
+        "achados": 0.38046637177467346,
+        "score_final": 0.36583638191223145
+      },
+      "gemini": {
+        "similaridade_geral": 0.5330100059509277,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5681874752044678,
+        "tipo_imagem": 0.2613241970539093,
+        "achados": 0.15127724409103394,
+        "score_final": 0.3105390965938568
+      }
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 2,
+      "gt_diagnostico": "AVE hemorrágico",
+      "baseline": {
+        "similaridade_geral": 0.4330681562423706,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5496594905853271,
+        "tipo_imagem": 0.27134090662002563,
+        "achados": 0.21815179288387299,
+        "score_final": 0.2974523901939392
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.4721832871437073,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.49702975153923035,
+        "tipo_imagem": 0.3414113223552704,
+        "achados": 0.22814315557479858,
+        "score_final": 0.3041272759437561
+      },
+      "gemini": {
+        "similaridade_geral": 0.4539998769760132,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.503891110420227,
+        "tipo_imagem": 0.2846221625804901,
+        "achados": 0.3869917392730713,
+        "score_final": 0.3175148367881775
+      }
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 3,
+      "gt_diagnostico": "Cálculo Renal",
+      "baseline": {
+        "similaridade_geral": 0.5953516960144043,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3588176965713501,
+        "tipo_imagem": 0.5,
+        "achados": 0.4155655801296234,
+        "score_final": 0.34610962867736816
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5291727781295776,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.28706949949264526,
+        "tipo_imagem": 0.5,
+        "achados": 0.44557029008865356,
+        "score_final": 0.3194374740123749
+      },
+      "gemini": {
+        "similaridade_geral": 0.5167223215103149,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.4975398778915405,
+        "tipo_imagem": 0.5,
+        "achados": 0.4433053731918335,
+        "score_final": 0.49422523379325867
+      }
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 4,
+      "gt_diagnostico": "Mastite não puerperal",
+      "baseline": {
+        "similaridade_geral": 0.258833646774292,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.47925734519958496,
+        "tipo_imagem": 0.38552021980285645,
+        "achados": 0.14781871438026428,
+        "score_final": 0.25158190727233887
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.4338112473487854,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5206265449523926,
+        "tipo_imagem": 0.5382509827613831,
+        "achados": 0.29887986183166504,
+        "score_final": 0.34248852729797363
+      },
+      "gemini": {
+        "similaridade_geral": 0.2948615550994873,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.49306783080101013,
+        "tipo_imagem": 0.3003658652305603,
+        "achados": 0.13176065683364868,
+        "score_final": 0.24705824255943298
+      }
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 5,
+      "gt_diagnostico": "Aranha-marrom",
+      "baseline": {
+        "similaridade_geral": 0.49955683946609497,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2994949519634247,
+        "tipo_imagem": 0.4558165967464447,
+        "achados": 0.36928191781044006,
+        "score_final": 0.2985498905181885
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6216966509819031,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.15345214307308197,
+        "tipo_imagem": 0.5389968156814575,
+        "achados": 0.5831621885299683,
+        "score_final": 0.33102622628211975
+      },
+      "gemini": {
+        "similaridade_geral": 0.4279952645301819,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.26915615797042847,
+        "tipo_imagem": 0.44785839319229126,
+        "achados": 0.3883320689201355,
+        "score_final": 0.2783166468143463
+      }
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 6,
+      "gt_diagnostico": "Picada de Artrópode Não Identificado",
+      "baseline": {
+        "similaridade_geral": 0.5524304509162903,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4323630630970001,
+        "tipo_imagem": 0.3152349889278412,
+        "achados": 0.19370940327644348,
+        "score_final": 0.2949185073375702
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.38192227482795715,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.45547062158584595,
+        "tipo_imagem": 0.45176565647125244,
+        "achados": 0.23134449124336243,
+        "score_final": 0.2927186191082001
+      },
+      "gemini": {
+        "similaridade_geral": 0.505544126033783,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.40062272548675537,
+        "tipo_imagem": 0.24942027032375336,
+        "achados": 0.34027034044265747,
+        "score_final": 0.2897180914878845
+      }
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 7,
+      "gt_diagnostico": "Profilaxia de Úlcera por Pressão",
+      "baseline": {
+        "similaridade_geral": 0.5890761613845825,
+        "diagnostico_direto": 0.3333333333333333,
+        "diagnostico_semantico": 0.761523962020874,
+        "tipo_imagem": 0.3391174077987671,
+        "achados": 0.41473880410194397,
+        "score_final": 0.5046079754829407
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.4572179317474365,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5841741561889648,
+        "tipo_imagem": 0.4979180693626404,
+        "achados": 0.3789346218109131,
+        "score_final": 0.36901503801345825
+      },
+      "gemini": {
+        "similaridade_geral": 0.5586351156234741,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5833967924118042,
+        "tipo_imagem": 0.3005734384059906,
+        "achados": 0.28518417477607727,
+        "score_final": 0.3454398810863495
+      }
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 8,
+      "gt_diagnostico": "Doença Hemorroidária",
+      "baseline": {
+        "similaridade_geral": 0.3221130967140198,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4713674783706665,
+        "tipo_imagem": 0.5,
+        "achados": 0.3221130967140198,
+        "score_final": 0.3055814504623413
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.3839391767978668,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.393367737531662,
+        "tipo_imagem": 0.5,
+        "achados": 0.3839391767978668,
+        "score_final": 0.3077206313610077
+      },
+      "gemini": {
+        "similaridade_geral": 0.5403622388839722,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5400452017784119,
+        "tipo_imagem": 0.5,
+        "achados": 0.5403622388839722,
+        "score_final": 0.39913809299468994
+      }
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 9,
+      "gt_diagnostico": "Abscesso Peritonsilar",
+      "baseline": {
+        "similaridade_geral": 0.4058157801628113,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5428675413131714,
+        "tipo_imagem": 0.2979450225830078,
+        "achados": 0.2961200475692749,
+        "score_final": 0.3059898316860199
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5100153684616089,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.45632731914520264,
+        "tipo_imagem": 0.49920913577079773,
+        "achados": 0.3944859504699707,
+        "score_final": 0.35013917088508606
+      },
+      "gemini": {
+        "similaridade_geral": 0.4731568694114685,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5382987260818481,
+        "tipo_imagem": 0.3989032208919525,
+        "achados": 0.5199134945869446,
+        "score_final": 0.3670285940170288
+      }
+    },
+    {
+      "pasta": "Bergallo",
+      "teste": 10,
+      "gt_diagnostico": "Monilíase",
+      "baseline": {
+        "similaridade_geral": 0.6453009843826294,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3590037524700165,
+        "tipo_imagem": 0.3338465690612793,
+        "achados": 0.6978552341461182,
+        "score_final": 0.3735663890838623
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6674290299415588,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3940012454986572,
+        "tipo_imagem": 0.5303080081939697,
+        "achados": 0.6761661767959595,
+        "score_final": 0.41295725107192993
+      },
+      "gemini": {
+        "similaridade_geral": 0.5460432767868042,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3582318425178528,
+        "tipo_imagem": 0.3338465690612793,
+        "achados": 0.567124605178833,
+        "score_final": 0.33391231298446655
+      }
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 2,
+      "gt_diagnostico": "Faça um resumo desse laudo pra mim, com foco nas alterações encontradas",
+      "baseline": {
+        "similaridade_geral": 0.2737498879432678,
+        "diagnostico_direto": 0.125,
+        "diagnostico_semantico": 0.4953519105911255,
+        "tipo_imagem": 0.5,
+        "achados": 0.2737498879432678,
+        "score_final": 0.32590043544769287
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.14654316008090973,
+        "diagnostico_direto": 0.125,
+        "diagnostico_semantico": 0.5231965780258179,
+        "tipo_imagem": 0.5,
+        "achados": 0.14654316008090973,
+        "score_final": 0.2883392572402954
+      },
+      "gemini": {
+        "similaridade_geral": 0.2082001268863678,
+        "diagnostico_direto": 0.125,
+        "diagnostico_semantico": 0.5369141101837158,
+        "tipo_imagem": 0.5,
+        "achados": 0.2082001268863678,
+        "score_final": 0.31334859132766724
+      }
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 4,
+      "gt_diagnostico": "Transcreva esse pedido de exames, retirando a dosagem de t4 livre",
+      "baseline": {
+        "similaridade_geral": 0.6073785424232483,
+        "diagnostico_direto": 0.14285714285714285,
+        "diagnostico_semantico": 0.5064070224761963,
+        "tipo_imagem": 0.5,
+        "achados": 0.6073785424232483,
+        "score_final": 0.44989854097366333
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5951652526855469,
+        "diagnostico_direto": 0.2857142857142857,
+        "diagnostico_semantico": 0.5282748937606812,
+        "tipo_imagem": 0.5,
+        "achados": 0.5951652526855469,
+        "score_final": 0.48680517077445984
+      },
+      "gemini": {
+        "similaridade_geral": 0.6187759637832642,
+        "diagnostico_direto": 0.2857142857142857,
+        "diagnostico_semantico": 0.5722987651824951,
+        "tipo_imagem": 0.5,
+        "achados": 0.6187759637832642,
+        "score_final": 0.506074845790863
+      }
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 12,
+      "gt_diagnostico": "Me ajude com a prescrição de nitrato para esse paciente",
+      "baseline": {
+        "similaridade_geral": 0.2900216281414032,
+        "diagnostico_direto": 0.3333333333333333,
+        "diagnostico_semantico": 0.5141981244087219,
+        "tipo_imagem": 0.5,
+        "achados": 0.2900216281414032,
+        "score_final": 0.388390451669693
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.41571569442749023,
+        "diagnostico_direto": 0.16666666666666666,
+        "diagnostico_semantico": 0.5854012370109558,
+        "tipo_imagem": 0.5,
+        "achados": 0.41571569442749023,
+        "score_final": 0.4085174798965454
+      },
+      "gemini": {
+        "similaridade_geral": 0.4032955765724182,
+        "diagnostico_direto": 0.3333333333333333,
+        "diagnostico_semantico": 0.46175116300582886,
+        "tipo_imagem": 0.5,
+        "achados": 0.4032955765724182,
+        "score_final": 0.41492459177970886
+      }
+    },
+    {
+      "pasta": "Bergallo (imagens com texto)",
+      "teste": 15,
+      "gt_diagnostico": "Transcreva esse pedido de exame, pfv",
+      "baseline": {
+        "similaridade_geral": 0.4954802989959717,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5755502581596375,
+        "tipo_imagem": 0.5,
+        "achados": 0.4954802989959717,
+        "score_final": 0.3923056721687317
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.2309405356645584,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4486960768699646,
+        "tipo_imagem": 0.5,
+        "achados": 0.2309405356645584,
+        "score_final": 0.2680031955242157
+      },
+      "gemini": {
+        "similaridade_geral": 0.4189450144767761,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5180186033248901,
+        "tipo_imagem": 0.5,
+        "achados": 0.4189450144767761,
+        "score_final": 0.3511354327201843
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 1,
+      "gt_diagnostico": "Cistos Vulvares",
+      "baseline": {
+        "similaridade_geral": 0.6358963251113892,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5592738389968872,
+        "tipo_imagem": 0.36847081780433655,
+        "achados": 0.31436073780059814,
+        "score_final": 0.36942243576049805
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.7091728448867798,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.56232088804245,
+        "tipo_imagem": 0.6026512384414673,
+        "achados": 0.32323211431503296,
+        "score_final": 0.4212973117828369
+      },
+      "gemini": {
+        "similaridade_geral": 0.6834008693695068,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.564723789691925,
+        "tipo_imagem": 0.3557066023349762,
+        "achados": 0.30072301626205444,
+        "score_final": 0.3763255476951599
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 2,
+      "gt_diagnostico": "Herpes Genital",
+      "baseline": {
+        "similaridade_geral": 0.5912220478057861,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.44174233078956604,
+        "tipo_imagem": 0.6331149935722351,
+        "achados": 0.7204748392105103,
+        "score_final": 0.5567184686660767
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6148255467414856,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.5081052780151367,
+        "tipo_imagem": 0.5189390182495117,
+        "achados": 0.705209493637085,
+        "score_final": 0.5586137175559998
+      },
+      "gemini": {
+        "similaridade_geral": 0.5848546028137207,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3846208453178406,
+        "tipo_imagem": 0.4018799662590027,
+        "achados": 0.5743494629859924,
+        "score_final": 0.3595605492591858
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 3,
+      "gt_diagnostico": "Pólipo Endometrial",
+      "baseline": {
+        "similaridade_geral": 0.5824534296989441,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.4771249294281006,
+        "tipo_imagem": 0.0,
+        "achados": 0.47252219915390015,
+        "score_final": 0.4316502511501312
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.47976234555244446,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.42086753249168396,
+        "tipo_imagem": 0.0,
+        "achados": 0.4129273593425751,
+        "score_final": 0.2631084620952606
+      },
+      "gemini": {
+        "similaridade_geral": 0.5208109617233276,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.366680383682251,
+        "tipo_imagem": 0.0,
+        "achados": 0.37298500537872314,
+        "score_final": 0.25178003311157227
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 4,
+      "gt_diagnostico": "Vaginose Bacteriana",
+      "baseline": {
+        "similaridade_geral": 0.42726290225982666,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.22200268507003784,
+        "tipo_imagem": 0.4647132456302643,
+        "achados": 0.3629000782966614,
+        "score_final": 0.26509523391723633
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.46701300144195557,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.27738726139068604,
+        "tipo_imagem": 0.19359563291072845,
+        "achados": 0.35237300395965576,
+        "score_final": 0.24464471638202667
+      },
+      "gemini": {
+        "similaridade_geral": 0.5687085390090942,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4114881157875061,
+        "tipo_imagem": 0.590812087059021,
+        "achados": 0.5153305530548096,
+        "score_final": 0.3825351595878601
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 5,
+      "gt_diagnostico": "Cisto de Naboth",
+      "baseline": {
+        "similaridade_geral": 0.55573570728302,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.43716496229171753,
+        "tipo_imagem": 0.3831457495689392,
+        "achados": 0.5257033705711365,
+        "score_final": 0.3567657768726349
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5182192325592041,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4822015166282654,
+        "tipo_imagem": 0.4735085964202881,
+        "achados": 0.4415033459663391,
+        "score_final": 0.3614460229873657
+      },
+      "gemini": {
+        "similaridade_geral": 0.5264596939086914,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.43952080607414246,
+        "tipo_imagem": 0.5075032114982605,
+        "achados": 0.4893663227558136,
+        "score_final": 0.36470258235931396
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 6,
+      "gt_diagnostico": "Úlceras Genitais Infecciosas",
+      "baseline": {
+        "similaridade_geral": 0.7110216617584229,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.486420214176178,
+        "tipo_imagem": 0.19106414914131165,
+        "achados": 0.8077013492584229,
+        "score_final": 0.41362419724464417
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.7339084148406982,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.6708800792694092,
+        "tipo_imagem": 0.3338119387626648,
+        "achados": 0.6477696895599365,
+        "score_final": 0.4617389738559723
+      },
+      "gemini": {
+        "similaridade_geral": 0.697601318359375,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.585744321346283,
+        "tipo_imagem": 0.3956090211868286,
+        "achados": 0.7536843419075012,
+        "score_final": 0.45835036039352417
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 7,
+      "gt_diagnostico": "Tumor Vulvar Pequeno – Condiloma Acuminado",
+      "baseline": {
+        "similaridade_geral": 0.231858491897583,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.231858491897583,
+        "tipo_imagem": 0.5,
+        "achados": 0.231858491897583,
+        "score_final": 0.21411509811878204
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6426329612731934,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.6090415120124817,
+        "tipo_imagem": 0.5,
+        "achados": 0.6426329612731934,
+        "score_final": 0.45218193531036377
+      },
+      "gemini": {
+        "similaridade_geral": 0.6140279173851013,
+        "diagnostico_direto": 0.6,
+        "diagnostico_semantico": 0.6615260243415833,
+        "tipo_imagem": 0.5,
+        "achados": 0.6140279173851013,
+        "score_final": 0.6052913069725037
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 8,
+      "gt_diagnostico": "Eczema",
+      "baseline": {
+        "similaridade_geral": 0.7302196025848389,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3943979740142822,
+        "tipo_imagem": 1.0,
+        "achados": 0.7568252086639404,
+        "score_final": 0.5081672072410583
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6396958231925964,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4351640045642853,
+        "tipo_imagem": 0.0,
+        "achados": 0.6221076846122742,
+        "score_final": 0.33004629611968994
+      },
+      "gemini": {
+        "similaridade_geral": 0.6867599487304688,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.33439505100250244,
+        "tipo_imagem": 1.0,
+        "achados": 0.7722368240356445,
+        "score_final": 0.48678627610206604
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 9,
+      "gt_diagnostico": "Nódulo",
+      "baseline": {
+        "similaridade_geral": 0.5178784132003784,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2940872311592102,
+        "tipo_imagem": 0.18925800919532776,
+        "achados": 0.4411025941371918,
+        "score_final": 0.27165159583091736
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5091278553009033,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.28114229440689087,
+        "tipo_imagem": 0.4409930109977722,
+        "achados": 0.48044463992118835,
+        "score_final": 0.5603268146514893
+      },
+      "gemini": {
+        "similaridade_geral": 0.3968929946422577,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.21929830312728882,
+        "tipo_imagem": 0.33581745624542236,
+        "achados": 0.32774603366851807,
+        "score_final": 0.23373769223690033
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 10,
+      "gt_diagnostico": "Endometriose",
+      "baseline": {
+        "similaridade_geral": 0.561032772064209,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.33934345841407776,
+        "tipo_imagem": 0.42032402753829956,
+        "achados": 0.5633858442306519,
+        "score_final": 0.3445989191532135
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.4166862964630127,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2419348955154419,
+        "tipo_imagem": 0.36353352665901184,
+        "achados": 0.3382343649864197,
+        "score_final": 0.2490861862897873
+      },
+      "gemini": {
+        "similaridade_geral": 0.4148328900337219,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.34778034687042236,
+        "tipo_imagem": 0.4770740270614624,
+        "achados": 0.38184189796447754,
+        "score_final": 0.29874905943870544
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 11,
+      "gt_diagnostico": "Herpes genital",
+      "baseline": {
+        "similaridade_geral": 0.5479432344436646,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.49088388681411743,
+        "tipo_imagem": 0.0,
+        "achados": 0.4235526919364929,
+        "score_final": 0.2958425283432007
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5512693524360657,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.4638025760650635,
+        "tipo_imagem": 0.0,
+        "achados": 0.40478992462158203,
+        "score_final": 0.41192299127578735
+      },
+      "gemini": {
+        "similaridade_geral": 0.5693192481994629,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.42217206954956055,
+        "tipo_imagem": 0.0,
+        "achados": 0.422707200050354,
+        "score_final": 0.4078129529953003
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 12,
+      "gt_diagnostico": "Infecção fúngica",
+      "baseline": {
+        "similaridade_geral": 0.21770453453063965,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.31203019618988037,
+        "tipo_imagem": 0.206964910030365,
+        "achados": 0.2915460169315338,
+        "score_final": 0.19632509350776672
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.35935455560684204,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.30272114276885986,
+        "tipo_imagem": 0.424601674079895,
+        "achados": 0.5072017312049866,
+        "score_final": 0.28732171654701233
+      },
+      "gemini": {
+        "similaridade_geral": 0.42297202348709106,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.39557215571403503,
+        "tipo_imagem": 0.2921436131000519,
+        "achados": 0.4794943332672119,
+        "score_final": 0.2992331385612488
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 13,
+      "gt_diagnostico": "lesão de baixo grau vulvar",
+      "baseline": {
+        "similaridade_geral": 0.2652340829372406,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4703543484210968,
+        "tipo_imagem": 0.23172388970851898,
+        "achados": 0.2147853523492813,
+        "score_final": 0.237611785531044
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.47502267360687256,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5319747924804688,
+        "tipo_imagem": 0.37320804595947266,
+        "achados": 0.376733660697937,
+        "score_final": 0.3404895067214966
+      },
+      "gemini": {
+        "similaridade_geral": 0.6461862325668335,
+        "diagnostico_direto": 0.25,
+        "diagnostico_semantico": 0.7618582844734192,
+        "tipo_imagem": 0.5442746877670288,
+        "achados": 0.4410605728626251,
+        "score_final": 0.5300021171569824
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 14,
+      "gt_diagnostico": "líquen escleroso com infecção fúngica",
+      "baseline": {
+        "similaridade_geral": 0.19410119950771332,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3061046302318573,
+        "tipo_imagem": 0.12079612910747528,
+        "achados": 0.12721259891986847,
+        "score_final": 0.1525477170944214
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5004194378852844,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.34985101222991943,
+        "tipo_imagem": 0.2514444589614868,
+        "achados": 0.5739418268203735,
+        "score_final": 0.3113545775413513
+      },
+      "gemini": {
+        "similaridade_geral": 0.4785633087158203,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4406353533267975,
+        "tipo_imagem": 0.5078014135360718,
+        "achados": 0.5769233107566833,
+        "score_final": 0.3685801923274994
+      }
+    },
+    {
+      "pasta": "Caroline",
+      "teste": 15,
+      "gt_diagnostico": "candidíase vaginal",
+      "baseline": {
+        "similaridade_geral": 0.08368916809558868,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.1525527983903885,
+        "tipo_imagem": 0.5,
+        "achados": 0.08368916809558868,
+        "score_final": 0.1424294114112854
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.27552980184555054,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3762478232383728,
+        "tipo_imagem": 0.5,
+        "achados": 0.27552980184555054,
+        "score_final": 0.2654973864555359
+      },
+      "gemini": {
+        "similaridade_geral": 0.21321454644203186,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.20755207538604736,
+        "tipo_imagem": 0.5,
+        "achados": 0.21321454644203186,
+        "score_final": 0.2015131115913391
+      }
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 1,
+      "gt_diagnostico": "Escabiose",
+      "baseline": {
+        "similaridade_geral": 0.38503268361091614,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.31666070222854614,
+        "tipo_imagem": 1.0,
+        "achados": 0.45160549879074097,
+        "score_final": 0.3739125430583954
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.3792160749435425,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3034262955188751,
+        "tipo_imagem": 0.0,
+        "achados": 0.6035778522491455,
+        "score_final": 0.24223646521568298
+      },
+      "gemini": {
+        "similaridade_geral": 0.4053851068019867,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3589128255844116,
+        "tipo_imagem": 0.0,
+        "achados": 0.6257137060165405,
+        "score_final": 0.2646622955799103
+      }
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 2,
+      "gt_diagnostico": "Mastocitose Cutânea",
+      "baseline": {
+        "similaridade_geral": 0.5330153703689575,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3210016191005707,
+        "tipo_imagem": 0.45281434059143066,
+        "achados": 0.4365464150905609,
+        "score_final": 0.32025760412216187
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5020349025726318,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.39723318815231323,
+        "tipo_imagem": 0.3200787901878357,
+        "achados": 0.32022005319595337,
+        "score_final": 0.42076006531715393
+      },
+      "gemini": {
+        "similaridade_geral": 0.5031988024711609,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.2884030342102051,
+        "tipo_imagem": 0.3748701214790344,
+        "achados": 0.4872092008590698,
+        "score_final": 0.42705240845680237
+      }
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 3,
+      "gt_diagnostico": "Raquitismo",
+      "baseline": {
+        "similaridade_geral": 0.6891900300979614,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3311085104942322,
+        "tipo_imagem": 0.5,
+        "achados": 0.4623153805732727,
+        "score_final": 0.36496245861053467
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5935767889022827,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4549035131931305,
+        "tipo_imagem": 0.0,
+        "achados": 0.3196442723274231,
+        "score_final": 0.28038787841796875
+      },
+      "gemini": {
+        "similaridade_geral": 0.4666680693626404,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.37772494554519653,
+        "tipo_imagem": 0.0,
+        "achados": 0.4332289695739746,
+        "score_final": 0.2527492046356201
+      }
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 4,
+      "gt_diagnostico": "Cisto dermóide infantil",
+      "baseline": {
+        "similaridade_geral": 0.5488879680633545,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.36542952060699463,
+        "tipo_imagem": 0.0,
+        "achados": 0.3637358844280243,
+        "score_final": 0.2556953728199005
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.43950676918029785,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.309124618768692,
+        "tipo_imagem": 0.0,
+        "achados": 0.196516215801239,
+        "score_final": 0.19465993344783783
+      },
+      "gemini": {
+        "similaridade_geral": 0.4992392063140869,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.279855340719223,
+        "tipo_imagem": 0.0,
+        "achados": 0.2421654909849167,
+        "score_final": 0.20613650977611542
+      }
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 5,
+      "gt_diagnostico": "Monilíase",
+      "baseline": {
+        "similaridade_geral": 0.14286738634109497,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4532993733882904,
+        "tipo_imagem": 0.5,
+        "achados": 0.14286738634109497,
+        "score_final": 0.23832842707633972
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.13436107337474823,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3627379536628723,
+        "tipo_imagem": 0.5,
+        "achados": 0.13436107337474823,
+        "score_final": 0.21271087229251862
+      },
+      "gemini": {
+        "similaridade_geral": 0.12788483500480652,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.40613245964050293,
+        "tipo_imagem": 0.5,
+        "achados": 0.12788483500480652,
+        "score_final": 0.22129280865192413
+      }
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 6,
+      "gt_diagnostico": "Exantema Súbito",
+      "baseline": {
+        "similaridade_geral": 0.43752193450927734,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.5219730138778687,
+        "tipo_imagem": 0.2758883237838745,
+        "achados": 0.3624488115310669,
+        "score_final": 0.43874821066856384
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5417408347129822,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4116494655609131,
+        "tipo_imagem": 0.30372166633605957,
+        "achados": 0.3572744131088257,
+        "score_final": 0.31040993332862854
+      },
+      "gemini": {
+        "similaridade_geral": 0.4170114994049072,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3477972745895386,
+        "tipo_imagem": 0.30372166633605957,
+        "achados": 0.3790435492992401,
+        "score_final": 0.2727664113044739
+      }
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 7,
+      "gt_diagnostico": "Observe essa lesão e me dê uma lista de pelo menos 3 diagnosticos diferenciais",
+      "baseline": {
+        "similaridade_geral": 0.4206724166870117,
+        "diagnostico_direto": 0.125,
+        "diagnostico_semantico": 0.47414666414260864,
+        "tipo_imagem": 0.5,
+        "achados": 0.4206724166870117,
+        "score_final": 0.37202203273773193
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.43547648191452026,
+        "diagnostico_direto": 0.125,
+        "diagnostico_semantico": 0.5101118087768555,
+        "tipo_imagem": 0.5,
+        "achados": 0.43547648191452026,
+        "score_final": 0.38619473576545715
+      },
+      "gemini": {
+        "similaridade_geral": 0.4788883924484253,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4794090688228607,
+        "tipo_imagem": 0.5,
+        "achados": 0.4788883924484253,
+        "score_final": 0.36246320605278015
+      }
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 8,
+      "gt_diagnostico": "A partir da imagem, me diga qual é o nome desse sinal semiológico",
+      "baseline": {
+        "similaridade_geral": 0.3714563548564911,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.504024863243103,
+        "tipo_imagem": 0.5,
+        "achados": 0.3714563548564911,
+        "score_final": 0.331015944480896
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5231322050094604,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.565517783164978,
+        "tipo_imagem": 0.5,
+        "achados": 0.5231322050094604,
+        "score_final": 0.39947572350502014
+      },
+      "gemini": {
+        "similaridade_geral": 0.43746089935302734,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5199122428894043,
+        "tipo_imagem": 0.5,
+        "achados": 0.43746089935302734,
+        "score_final": 0.3580893874168396
+      }
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 9,
+      "gt_diagnostico": "Descreva a lesão e me diga qual é um possível diagnóstico para o quadro",
+      "baseline": {
+        "similaridade_geral": 0.4747276306152344,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5855581760406494,
+        "tipo_imagem": 0.5,
+        "achados": 0.4747276306152344,
+        "score_final": 0.3875442147254944
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.4806547164916992,
+        "diagnostico_direto": 0.125,
+        "diagnostico_semantico": 0.561484694480896,
+        "tipo_imagem": 0.5,
+        "achados": 0.4806547164916992,
+        "score_final": 0.41485029458999634
+      },
+      "gemini": {
+        "similaridade_geral": 0.45201072096824646,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5794522166252136,
+        "tipo_imagem": 0.5,
+        "achados": 0.45201072096824646,
+        "score_final": 0.3780667781829834
+      }
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 11,
+      "gt_diagnostico": "Descreva os achados da imagem e me dê pelos menos 3 diagnósticos",
+      "baseline": {
+        "similaridade_geral": 0.46979814767837524,
+        "diagnostico_direto": 0.16666666666666666,
+        "diagnostico_semantico": 0.500067949295044,
+        "tipo_imagem": 0.5,
+        "achados": 0.46979814767837524,
+        "score_final": 0.40611302852630615
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5421527028083801,
+        "diagnostico_direto": 0.16666666666666666,
+        "diagnostico_semantico": 0.5942398309707642,
+        "tipo_imagem": 0.5,
+        "achados": 0.5421527028083801,
+        "score_final": 0.4549800753593445
+      },
+      "gemini": {
+        "similaridade_geral": 0.5114200711250305,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5114988684654236,
+        "tipo_imagem": 0.5,
+        "achados": 0.5114200711250305,
+        "score_final": 0.38187175989151
+      }
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 12,
+      "gt_diagnostico": "Descreva a lesão e me diga qual é um possível diagnóstico para o quadro",
+      "baseline": {
+        "similaridade_geral": 0.4238571226596832,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5151705145835876,
+        "tipo_imagem": 0.5,
+        "achados": 0.4238571226596832,
+        "score_final": 0.3521426320075989
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.3446408808231354,
+        "diagnostico_direto": 0.125,
+        "diagnostico_semantico": 0.5527458190917969,
+        "tipo_imagem": 0.5,
+        "achados": 0.3446408808231354,
+        "score_final": 0.3650607466697693
+      },
+      "gemini": {
+        "similaridade_geral": 0.4039992392063141,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5768238306045532,
+        "tipo_imagem": 0.5,
+        "achados": 0.4039992392063141,
+        "score_final": 0.3606056869029999
+      }
+    },
+    {
+      "pasta": "Dolores",
+      "teste": 13,
+      "gt_diagnostico": "A partir da imagem, me descreva o diagnóstico e a etiologia do quadro",
+      "baseline": {
+        "similaridade_geral": 0.5629488229751587,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5645613670349121,
+        "tipo_imagem": 0.5,
+        "achados": 0.5629488229751587,
+        "score_final": 0.4131724238395691
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.48328280448913574,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.6544192433357239,
+        "tipo_imagem": 0.5,
+        "achados": 0.48328280448913574,
+        "score_final": 0.40775376558303833
+      },
+      "gemini": {
+        "similaridade_geral": 0.6235390901565552,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.6615073084831238,
+        "tipo_imagem": 0.5,
+        "achados": 0.6235390901565552,
+        "score_final": 0.4586155116558075
+      }
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 1,
+      "gt_diagnostico": "Classificação de Schatzker",
+      "baseline": {
+        "similaridade_geral": 0.6160327196121216,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3041359782218933,
+        "tipo_imagem": 1.0,
+        "achados": 0.5273596048355103,
+        "score_final": 0.4283444881439209
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.45385968685150146,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3310287892818451,
+        "tipo_imagem": 0.0,
+        "achados": 0.4396432936191559,
+        "score_final": 0.23947563767433167
+      },
+      "gemini": {
+        "similaridade_geral": 0.6210546493530273,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3322523236274719,
+        "tipo_imagem": 1.0,
+        "achados": 0.46423640847206116,
+        "score_final": 0.42690950632095337
+      }
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 2,
+      "gt_diagnostico": "Fibroma Não Ossificante",
+      "baseline": {
+        "similaridade_geral": 0.6927489638328552,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.648823618888855,
+        "tipo_imagem": 0.0,
+        "achados": 0.6679210662841797,
+        "score_final": 0.4009438455104828
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5439062118530273,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4151005148887634,
+        "tipo_imagem": 0.0,
+        "achados": 0.5027535557746887,
+        "score_final": 0.2879694104194641
+      },
+      "gemini": {
+        "similaridade_geral": 0.6711102724075317,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5816665887832642,
+        "tipo_imagem": 0.0,
+        "achados": 0.6375728845596313,
+        "score_final": 0.375274658203125
+      }
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 3,
+      "gt_diagnostico": "Contratura de Dupuytren",
+      "baseline": {
+        "similaridade_geral": 0.2790386378765106,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.42552244663238525,
+        "tipo_imagem": 0.5,
+        "achados": 0.2790386378765106,
+        "score_final": 0.27904415130615234
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.4291146993637085,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4761267900466919,
+        "tipo_imagem": 0.5,
+        "achados": 0.4291146993637085,
+        "score_final": 0.3442218601703644
+      },
+      "gemini": {
+        "similaridade_geral": 0.32079797983169556,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.38650596141815186,
+        "tipo_imagem": 0.5,
+        "achados": 0.32079797983169556,
+        "score_final": 0.2839058041572571
+      }
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 4,
+      "gt_diagnostico": "Fratura de falange",
+      "baseline": {
+        "similaridade_geral": 0.3231377899646759,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.603573203086853,
+        "tipo_imagem": 0.5,
+        "achados": 0.3231377899646759,
+        "score_final": 0.5889915227890015
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5377460718154907,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.5976741909980774,
+        "tipo_imagem": 0.5,
+        "achados": 0.5377460718154907,
+        "score_final": 0.6626296639442444
+      },
+      "gemini": {
+        "similaridade_geral": 0.4101582169532776,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.7121178507804871,
+        "tipo_imagem": 0.5,
+        "achados": 0.4101582169532776,
+        "score_final": 0.6465848088264465
+      }
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 5,
+      "gt_diagnostico": "Osteossíntese de escafóide",
+      "baseline": {
+        "similaridade_geral": 0.4181382954120636,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.45648694038391113,
+        "tipo_imagem": 0.5,
+        "achados": 0.4181382954120636,
+        "score_final": 0.33547016978263855
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.54279625415802,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.44740787148475647,
+        "tipo_imagem": 0.5,
+        "achados": 0.54279625415802,
+        "score_final": 0.37683066725730896
+      },
+      "gemini": {
+        "similaridade_geral": 0.5445502996444702,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.560167670249939,
+        "tipo_imagem": 0.5,
+        "achados": 0.5445502996444702,
+        "score_final": 0.5306345224380493
+      }
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 6,
+      "gt_diagnostico": "Osteossíntese de escafóide",
+      "baseline": {
+        "similaridade_geral": 0.5396367311477661,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5811400413513184,
+        "tipo_imagem": 0.5,
+        "achados": 0.5396367311477661,
+        "score_final": 0.4091579020023346
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.617843747138977,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.6091275215148926,
+        "tipo_imagem": 0.5,
+        "achados": 0.617843747138977,
+        "score_final": 0.4435272216796875
+      },
+      "gemini": {
+        "similaridade_geral": 0.4951532483100891,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.6065431833267212,
+        "tipo_imagem": 0.5,
+        "achados": 0.4951532483100891,
+        "score_final": 0.5249394178390503
+      }
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 7,
+      "gt_diagnostico": "Pseudoartrose de escafóide",
+      "baseline": {
+        "similaridade_geral": 0.2507246136665344,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.26480811834335327,
+        "tipo_imagem": 0.5,
+        "achados": 0.2507246136665344,
+        "score_final": 0.22895565629005432
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.21280059218406677,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.28719741106033325,
+        "tipo_imagem": 0.5,
+        "achados": 0.21280059218406677,
+        "score_final": 0.2212795615196228
+      },
+      "gemini": {
+        "similaridade_geral": 0.14954796433448792,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.30162250995635986,
+        "tipo_imagem": 0.5,
+        "achados": 0.14954796433448792,
+        "score_final": 0.2027474194765091
+      }
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 9,
+      "gt_diagnostico": "Pseudoartrose de escafóide",
+      "baseline": {
+        "similaridade_geral": 0.20020173490047455,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.24900861084461212,
+        "tipo_imagem": 0.5,
+        "achados": 0.20020173490047455,
+        "score_final": 0.20732276141643524
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.27911141514778137,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2662932872772217,
+        "tipo_imagem": 0.5,
+        "achados": 0.27911141514778137,
+        "score_final": 0.23926231265068054
+      },
+      "gemini": {
+        "similaridade_geral": 0.23403476178646088,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.23498430848121643,
+        "tipo_imagem": 0.5,
+        "achados": 0.23403476178646088,
+        "score_final": 0.2156582474708557
+      }
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 8,
+      "gt_diagnostico": "fratura de falange",
+      "baseline": {
+        "similaridade_geral": 0.34663301706314087,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.6821293234825134,
+        "tipo_imagem": 0.5,
+        "achados": 0.34663301706314087,
+        "score_final": 0.49185386300086975
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.21962636709213257,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.4414553642272949,
+        "tipo_imagem": 0.5,
+        "achados": 0.21962636709213257,
+        "score_final": 0.38723307847976685
+      },
+      "gemini": {
+        "similaridade_geral": 0.206759974360466,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.5078144073486328,
+        "tipo_imagem": 0.5,
+        "achados": 0.206759974360466,
+        "score_final": 0.3993196189403534
+      }
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 10,
+      "gt_diagnostico": "osteossíntese do femur proximal esquerdo",
+      "baseline": {
+        "similaridade_geral": 0.6131772994995117,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.7451534271240234,
+        "tipo_imagem": 0.5,
+        "achados": 0.6131772994995117,
+        "score_final": 0.600900411605835
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.49256736040115356,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.523015558719635,
+        "tipo_imagem": 0.5,
+        "achados": 0.49256736040115356,
+        "score_final": 0.378152459859848
+      },
+      "gemini": {
+        "similaridade_geral": 0.7184280753135681,
+        "diagnostico_direto": 0.75,
+        "diagnostico_semantico": 0.7387102842330933,
+        "tipo_imagem": 0.5,
+        "achados": 0.7184280753135681,
+        "score_final": 0.6986273527145386
+      }
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 11,
+      "gt_diagnostico": "fratura de falange",
+      "baseline": {
+        "similaridade_geral": 0.38560807704925537,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.581304669380188,
+        "tipo_imagem": 0.5,
+        "achados": 0.38560807704925537,
+        "score_final": 0.6052890419960022
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.4553399682044983,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.6390435099601746,
+        "tipo_imagem": 0.5,
+        "achados": 0.4553399682044983,
+        "score_final": 0.6441298723220825
+      },
+      "gemini": {
+        "similaridade_geral": 0.3709251582622528,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.6109892129898071,
+        "tipo_imagem": 0.5,
+        "achados": 0.3709251582622528,
+        "score_final": 0.4825711250305176
+      }
+    },
+    {
+      "pasta": "Giovanni",
+      "teste": 12,
+      "gt_diagnostico": "Contratura de Dupuytren",
+      "baseline": {
+        "similaridade_geral": 0.45002976059913635,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.45471858978271484,
+        "tipo_imagem": 0.5,
+        "achados": 0.45002976059913635,
+        "score_final": 0.5961900949478149
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.43041330575942993,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3955051898956299,
+        "tipo_imagem": 0.5,
+        "achados": 0.43041330575942993,
+        "score_final": 0.3245209753513336
+      },
+      "gemini": {
+        "similaridade_geral": 0.3509535491466522,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.426261842250824,
+        "tipo_imagem": 0.5,
+        "achados": 0.3509535491466522,
+        "score_final": 0.3043992221355438
+      }
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 1,
+      "gt_diagnostico": "Amiloidose cutânea",
+      "baseline": {
+        "similaridade_geral": 0.5627094507217407,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3289903402328491,
+        "tipo_imagem": 0.44139525294303894,
+        "achados": 0.6319407820701599,
+        "score_final": 0.3557898700237274
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6614445447921753,
+        "diagnostico_direto": 0.5,
+        "diagnostico_semantico": 0.3777238130569458,
+        "tipo_imagem": 0.43905115127563477,
+        "achados": 0.606311559677124,
+        "score_final": 0.5085242986679077
+      },
+      "gemini": {
+        "similaridade_geral": 0.5755760669708252,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2961498498916626,
+        "tipo_imagem": 0.4320608973503113,
+        "achados": 0.40916961431503296,
+        "score_final": 0.31533727049827576
+      }
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 2,
+      "gt_diagnostico": "Angioma Rubi",
+      "baseline": {
+        "similaridade_geral": 0.4113067388534546,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3399119973182678,
+        "tipo_imagem": 0.30026713013648987,
+        "achados": 0.17585915327072144,
+        "score_final": 0.23865827918052673
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.43110498785972595,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3916115462779999,
+        "tipo_imagem": 0.435428261756897,
+        "achados": 0.2227860987186432,
+        "score_final": 0.2828560471534729
+      },
+      "gemini": {
+        "similaridade_geral": 0.4882497489452362,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3495890200138092,
+        "tipo_imagem": 0.17819374799728394,
+        "achados": 0.21094796061515808,
+        "score_final": 0.24341847002506256
+      }
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 3,
+      "gt_diagnostico": "Carcinoma Basocelular",
+      "baseline": {
+        "similaridade_geral": 0.6262315511703491,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2641441226005554,
+        "tipo_imagem": 0.39417099952697754,
+        "achados": 0.7464284896850586,
+        "score_final": 0.3623722791671753
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6844828128814697,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.40161341428756714,
+        "tipo_imagem": 0.47753337025642395,
+        "achados": 0.5576098561286926,
+        "score_final": 0.3925713896751404
+      },
+      "gemini": {
+        "similaridade_geral": 0.5990913510322571,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.26665058732032776,
+        "tipo_imagem": 0.33155906200408936,
+        "achados": 0.7633422017097473,
+        "score_final": 0.35071611404418945
+      }
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 4,
+      "gt_diagnostico": "Cisto Mucoso Digital",
+      "baseline": {
+        "similaridade_geral": 0.6172471046447754,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4556005895137787,
+        "tipo_imagem": 0.44605469703674316,
+        "achados": 0.48103874921798706,
+        "score_final": 0.37641358375549316
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.471988320350647,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3819330334663391,
+        "tipo_imagem": 0.5158501863479614,
+        "achados": 0.3004041910171509,
+        "score_final": 0.3123190999031067
+      },
+      "gemini": {
+        "similaridade_geral": 0.5221197605133057,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4914676547050476,
+        "tipo_imagem": 0.35111671686172485,
+        "achados": 0.4648129343986511,
+        "score_final": 0.3496803045272827
+      }
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 5,
+      "gt_diagnostico": "Epidermodisplasia Verruciforme",
+      "baseline": {
+        "similaridade_geral": 0.6919052600860596,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4392618238925934,
+        "tipo_imagem": 0.36002206802368164,
+        "achados": 0.45231252908706665,
+        "score_final": 0.3700467348098755
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6677802205085754,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.44765394926071167,
+        "tipo_imagem": 0.407196044921875,
+        "achados": 0.34331274032592773,
+        "score_final": 0.35804587602615356
+      },
+      "gemini": {
+        "similaridade_geral": 0.6536495685577393,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4079310894012451,
+        "tipo_imagem": 0.37458840012550354,
+        "achados": 0.4074094295501709,
+        "score_final": 0.3500123620033264
+      }
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 6,
+      "gt_diagnostico": "Esporotricose",
+      "baseline": {
+        "similaridade_geral": 0.5190361738204956,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2989550530910492,
+        "tipo_imagem": 1.0,
+        "achados": 0.7141174077987671,
+        "score_final": 0.4356636106967926
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5662355422973633,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2763303518295288,
+        "tipo_imagem": 0.0,
+        "achados": 0.6439557671546936,
+        "score_final": 0.27892306447029114
+      },
+      "gemini": {
+        "similaridade_geral": 0.6103835701942444,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.33968380093574524,
+        "tipo_imagem": 0.0,
+        "achados": 0.7305299043655396,
+        "score_final": 0.31657713651657104
+      }
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 7,
+      "gt_diagnostico": "Poroqueratose",
+      "baseline": {
+        "similaridade_geral": 0.6658886671066284,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2821524739265442,
+        "tipo_imagem": 1.0,
+        "achados": 0.5159786939620972,
+        "score_final": 0.431112676858902
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.7047675251960754,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3124913275241852,
+        "tipo_imagem": 1.0,
+        "achados": 0.4652736485004425,
+        "score_final": 0.43886739015579224
+      },
+      "gemini": {
+        "similaridade_geral": 0.6588030457496643,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.26581406593322754,
+        "tipo_imagem": 1.0,
+        "achados": 0.4102781414985657,
+        "score_final": 0.4097558856010437
+      }
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 8,
+      "gt_diagnostico": "Vitiligo",
+      "baseline": {
+        "similaridade_geral": 0.6546575427055359,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.378461092710495,
+        "tipo_imagem": 0.44633370637893677,
+        "achados": 0.3683386445045471,
+        "score_final": 0.3477476239204407
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.7676885724067688,
+        "diagnostico_direto": 1.0,
+        "diagnostico_semantico": 0.6210484504699707,
+        "tipo_imagem": 0.40788358449935913,
+        "achados": 0.4982013702392578,
+        "score_final": 0.6947126388549805
+      },
+      "gemini": {
+        "similaridade_geral": 0.6376776099205017,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2771368622779846,
+        "tipo_imagem": 0.38221555948257446,
+        "achados": 0.5752028226852417,
+        "score_final": 0.3404324948787689
+      }
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 9,
+      "gt_diagnostico": "Xantoma",
+      "baseline": {
+        "similaridade_geral": 0.5570223331451416,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4260910153388977,
+        "tipo_imagem": 0.29457932710647583,
+        "achados": 0.4764428734779358,
+        "score_final": 0.33358055353164673
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5130383968353271,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.24708887934684753,
+        "tipo_imagem": 0.41535720229148865,
+        "achados": 0.43668338656425476,
+        "score_final": 0.2921859920024872
+      },
+      "gemini": {
+        "similaridade_geral": 0.5640196800231934,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2097529023885727,
+        "tipo_imagem": 0.3636728525161743,
+        "achados": 0.8538850545883179,
+        "score_final": 0.3478758633136749
+      }
+    },
+    {
+      "pasta": "Marselle",
+      "teste": 10,
+      "gt_diagnostico": "Síndrome de Sneddon",
+      "baseline": {
+        "similaridade_geral": 0.5194333791732788,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.41521143913269043,
+        "tipo_imagem": 0.3842443525791168,
+        "achados": 0.3169683516025543,
+        "score_final": 0.31287145614624023
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.4061678647994995,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3389317989349365,
+        "tipo_imagem": 0.47100624442100525,
+        "achados": 0.31724387407302856,
+        "score_final": 0.28420406579971313
+      },
+      "gemini": {
+        "similaridade_geral": 0.584291934967041,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.33072757720947266,
+        "tipo_imagem": 0.4148387908935547,
+        "achados": 0.44770556688308716,
+        "score_final": 0.32892194390296936
+      }
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 1,
+      "gt_diagnostico": "AVE Hemorrágico",
+      "baseline": {
+        "similaridade_geral": 0.5293405055999756,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.46113455295562744,
+        "tipo_imagem": 0.0,
+        "achados": 0.49645718932151794,
+        "score_final": 0.295620322227478
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.48030322790145874,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4741322100162506,
+        "tipo_imagem": 0.0,
+        "achados": 0.5996118783950806,
+        "score_final": 0.30453550815582275
+      },
+      "gemini": {
+        "similaridade_geral": 0.5313140749931335,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5287685394287109,
+        "tipo_imagem": 0.0,
+        "achados": 0.48502352833747864,
+        "score_final": 0.31120848655700684
+      }
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 2,
+      "gt_diagnostico": "Hidrocefalia Obstrutiva (Infantil)",
+      "baseline": {
+        "similaridade_geral": 0.5456081628799438,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.3635045886039734,
+        "tipo_imagem": 0.5,
+        "achados": 0.45995935797691345,
+        "score_final": 0.3439916670322418
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.6226096153259277,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2805449366569519,
+        "tipo_imagem": 0.5,
+        "achados": 0.6297580599784851,
+        "score_final": 0.36412185430526733
+      },
+      "gemini": {
+        "similaridade_geral": 0.7495616674423218,
+        "diagnostico_direto": 0.3333333333333333,
+        "diagnostico_semantico": 0.41511449217796326,
+        "tipo_imagem": 0.5,
+        "achados": 0.5913760662078857,
+        "score_final": 0.5007307529449463
+      }
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 3,
+      "gt_diagnostico": "Ressonância magnética do Glioblastoma",
+      "baseline": {
+        "similaridade_geral": 0.550243616104126,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.4023449420928955,
+        "tipo_imagem": 0.5,
+        "achados": 0.28961968421936035,
+        "score_final": 0.32907792925834656
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.580403745174408,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.5254807472229004,
+        "tipo_imagem": 0.5,
+        "achados": 0.5999531149864197,
+        "score_final": 0.4124439060688019
+      },
+      "gemini": {
+        "similaridade_geral": 0.5683984756469727,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.46753567457199097,
+        "tipo_imagem": 0.5,
+        "achados": 0.4203176200389862,
+        "score_final": 0.36861127614974976
+      }
+    },
+    {
+      "pasta": "Nóbrega",
+      "teste": 4,
+      "gt_diagnostico": "Tuberculose (Tuberculoma)",
+      "baseline": {
+        "similaridade_geral": 0.58855140209198,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.2594214677810669,
+        "tipo_imagem": 1.0,
+        "achados": 0.35257118940353394,
+        "score_final": 0.3854513466358185
+      },
+      "gpt4o": {
+        "similaridade_geral": 0.5201646089553833,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.18116098642349243,
+        "tipo_imagem": 1.0,
+        "achados": 0.45454949140548706,
+        "score_final": 0.36750560998916626
+      },
+      "gemini": {
+        "similaridade_geral": 0.5270808935165405,
+        "diagnostico_direto": 0.0,
+        "diagnostico_semantico": 0.1198292002081871,
+        "tipo_imagem": 1.0,
+        "achados": 0.38053619861602783,
+        "score_final": 0.34245389699935913
+      }
+    }
+  ]
+}
